@@ -1,0 +1,14 @@
+html {
+	max-width: 1920px;
+    margin: auto;
+}
+
+#title {
+	margin-top:10px;
+	width: 100%;
+	height: auto; 
+	border: medium solid #000;
+	text-align: center;
+	background-color: #0F204B;
+	color: #ffb612;
+}

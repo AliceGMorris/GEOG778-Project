@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+
+        <link rel="stylesheet" href="css/maps.css">
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="https://js.arcgis.com/4.25/esri/themes/light/main.css">
+
+        
+    </head>
+
+    <body style="background-color:white;">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="nav_dropdown">
+                <button class="dropbtn">Education 
+                <i class="a"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="education.html">Thermochronology 101</a>
+                    <a href="education.html#AFTvAHe">AFT vs AHe</a>
+                    <a href="education.html#SA101">Intro to Southern Alaska</a>
+                </div>
+            </div> 
+            <div class="nav_dropdown">
+                <button class="dropbtn">Southern Alaska 
+                <i class="a"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="geologicmap.html">Geologic Map</a>
+                    <a href="samples.html">Sample Locations</a>
+                </div>
+            </div>
+            <div class="nav_dropdown">
+                <button class="dropbtn">Analysis
+                <i class="a"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="stats.html">Main Points</a>
+                    <a href="stats.html#histoGraph">Histogram</a>
+                    <a href="stats.html#missing">Areas of Missing Data</a>
+                </div>
+            </div>
+        </div>
+
+		<div id="title"><h1>Geologic Map of Alaska</h1></div>
+		<div id="map">
+		    <div id="dropdown"></div>
+		</div>
+        <div id="optionsDiv" class="esri-widget">
+            <p>Select Symbology</p>
+            <select id="query-type" class="esri-widget">
+            <option value="gen">Generalized Units</option>
+            <option value="age">Unit Age</option> </select> </div>
+        
+        <button id="myButton"> Sources </button>
+        <div id="myPopup" class="popup">
+            <div class="popup-content">
+                <button id="closePopup"> Close </button>
+                <h1> Sources: </h1>
+                <h2> Faults </h2>
+                <p class="Sources">Koehler, R.D., 2013, Quaternary Faults and Folds (QFF): Alaska Division of Geological & Geophysical Surveys Digital Data Series 3, http://doi.org/10.14509/qff</p>
+                <h2> Geology </h2>
+                <p class="Sources"> Wilson, F.H., Hults, C.P., Mull, C.G., and Karl, S.M., comps., 2015, Geologic map of Alaska: U.S. Geological Survey Scientific Investigations Map 3340, 197 p., 2 sheets, scale 1:584,000, http://dx.doi.org/10.3133/sim3340 </p>
+                <h2> Additional </h2>
+                <p class="Sources"> Federal Geographic Data Committee [prepared for the Federal Geographic Data Committee by the U.S. Geological Survey], 2006, FGDC Digital Cartographic Standard for Geologic Map Symbolization: Reston, Va., Federal Geographic Data Committee Document Number FGDC-STD-013-2006, 290 p., 2 plates </p>
+            </div>
+        </div>
+
+        <script>
+            myButton.addEventListener("click", function () {
+                myPopup.classList.add("show");
+            });
+            closePopup.addEventListener("click", function () {
+                myPopup.classList.remove("show");
+            });
+            window.addEventListener("click", function (event) {
+                if (event.target == myPopup) {
+                    myPopup.classList.remove("show");
+                }
+            });
+        </script>
+        
+        <script src="https://js.arcgis.com/4.25/"></script>
+
+        <script type="text/javascript" src="js/geomap.js"></script>
+    </body>
+</html>

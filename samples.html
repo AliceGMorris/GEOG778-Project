@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title></title>
+
+
+        <link rel="stylesheet" href="css/maps.css">
+        <link rel="stylesheet" href="css/navigation.css">
+		<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="lib/Fullscreen/Control.FullScreen.css" />
+
+        
+    </head>
+
+    <body style="background-color:white;">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="nav_dropdown">
+                <button class="dropbtn">Education 
+                <i class="a"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="education.html">Thermochronology 101</a>
+                    <a href="education.html#AFTvAHe">AFT vs AHe</a>
+                    <a href="education.html#SA101">Intro to Southern Alaska</a>
+                </div>
+            </div> 
+            <div class="nav_dropdown">
+                <button class="dropbtn">Southern Alaska 
+                <i class="a"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="geologicmap.html">Geologic Map</a>
+                    <a href="samples.html">Sample Locations</a>
+                </div>
+            </div>
+            <div class="nav_dropdown">
+                <button class="dropbtn">Analysis
+                <i class="a"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="stats.html">Main Points</a>
+                    <a href="stats.html#histoGraph">Histogram</a>
+                    <a href="stats.html#missing">Areas of Missing Data</a>
+                </div>
+            </div>
+        </div>
+
+		<div id="title"><h1>Apatite Fission Track and Apatite (U-Th)/He samples of Southern Alaska</h1></div>
+		<div id="map">
+		    <div id="dropdown"></div>
+		</div>
+        
+        <button id="myButton"> Sources </button>
+        <div id="myPopup" class="popup">
+            <div class="popup-content">
+                <button id="closePopup"> Close </button>
+                <h1> Sources: </h1>
+                <h2> Faults </h2>
+                <p class="Sources">Koehler, R.D., 2013, Quaternary Faults and Folds (QFF): Alaska Division of Geological & Geophysical Surveys Digital Data Series 3, http://doi.org/10.14509/qff</p>
+                <h2> Samples </h2>
+                <p class="Sources"> Arkle, J.C., Armstrong, P.A., Haeussler, P.J., Michael, G.P., Hartman, S., Sendziak, K.L., and Brush, J.A., 2013, Focused exhumation in the syntaxis of the western Chugach Mountains and Prince William Sound, Alaska: GSA Bulletin, v. 125, p. 776-793, doi: 10.1130/B30738.1 </p>
+                <p class="Sources"> Benowitz, J.A., Layer, P.W., Armstrong, P., Perry, S.E., Haeussler, P.J., Fitzgerald, P.G., and VanLaningham, S., 2011, Spatial variations in focused exhumation along a continental-scale strike-slip fault: The Denali fault of the eastern Alaska Range: Geosphere, v. 7, p. 455-467, doi: 10.1130/GES00589.1 </p>
+                <p class="Sources"> Benowitz, J. A., Haeussler, P. J., Layer, P. W., O'Sullivan, P. B., Wallace, W. K., and Gillis, R. J., 2012, Cenozoic tectono-thermal history of the Tordrillo Mountains, Alaska: Paleocene-Eocene ridge subduction, decreasing relief, and late Neogene faulting: Geochem. Geophys. Geosyst., v. 13, Q04009, doi: 10.1029/2011GC003951 </p>
+                <p class="Sources"> Benowitz, J. A., Roseke, S.M., Regan, S.P., Waldien, T.S., Elliott, J.L., and O’Sullivan P.B., 2022, Large-scale, crustal-block vertical extrusion between the Hines Creek and Denali faults coeval with slip localization on the Denali fault since ca. 45 Ma, Hayes Range, Alaska, USA: Geosphere, v. 18, p. 1030-1054, doi: 10.1130/GES02466.1 </p>
+                <p class="Sources"> Berger, A.L., and Spotila, J.A., 2008, Denudation and deformation in a glaciated orogenic wedge: The St. Elias orogen, Alaska: Geology, v. 36, p. 523-526, doi: 10.1130/G24883A.1 </p>
+                <p class="Sources"> Berger, A.L., Spotila, J.A., Chapman, J.B., Pavlis, T.L., Enkelmann, E., Ruppert, N.A., and Buscher, J.T., 2008, Architecture, kinematics, and exhumation of a convergent orogenic wedge: A thermochronological investigation of tectonic–climatic interactions within the central St. Elias orogen, Alaska: Earth and Planetary Science Letters, v. 270, p. 13-24, doi: 10.1016/j.epsl.2008.02.034 </p>
+                <p class="Sources"> Box, S.E., Moll-Stalcup, E.J., Frost, T.P., and Murphy, J.M., 1993, Preliminary geologic map of the Bethel and Southern Russian Mission quadrangles, Southwestern Alaska: USGS, doi: doi.org/10.3133/mf2226A </p>
+                <p class="Sources"> Buscher, J.T., Berger, A.L., and Spotila, J.A., 2008, Exhumation in the Chugach-Kenai Mountain Belt Above the Aleutian Subduction Zone, Southern Alaska: Active Tectonics and Seismic Potential of Alaska, v. 179, doi: doi.org/10.1029/179GM08 </p>
+                <p class="Sources"> Clendenen, W.S., Fisher, D., and Byrne, T., 2003, Cooling and exhumation history of the Kodiak accretionary prism, southwest Alaska: Geological Society of America Special Paper, v. 371, doi: doi.org/10.1029/179GM08 </p>
+                <p class="Sources"> Cook, R.D., Crawford, M.L., Omar, G.I., and Crawford, W.A., 1991, Magmatism and deformation, southern Revillagigedo Island, southeastern Alaska: GSA Bulletin, v. 103, p. 829-841, doi: doi.org/10.1130/0016-7606(1991) </p>
+                <p class="Sources"> Dusel-Bacon, C., and Murphy, J.M., 2001, Apatite fission-track evidence of widespread Eocene heating and exhumation in the Yukon-Tanana Upland, interior Alaska: Canadian Journal of Earth Sciences, v. 38, p. 1191-1204, doi: doi.org/10.1139/e01-015 </p>
+                <p class="Sources"> Dusel-Bacon, C., Bacon, C.R., O’Sullivan, P.B., and Day, W.C., 2016, Apatite fission-track evidence for regional exhumation in the subtropical Eocene, block faulting, and localized fluid flow in east-central Alaska: Canadian Journal of Earth Sciences, v. 53, p. 260-280, doi: doi.org/10.1139/cjes-2015-0138 </p>
+                <p class="Sources"> Enkelmann, E., Zeitler, P.K., Garver, J.I., Pavlis, T.L., and Hooks, B.P., 2010, The thermochronological record of tectonic and surface process interaction at the Yakutat–North American collision zone in southeast Alaska: American Journal of Sciences, v. 31, p. 231-260, doi: doi.org/10.2475/04.2010.01 </p>
+                <p class="Sources"> Enkelmann, E., Valla, P.G., and Champagnac, J.D., 2015, Low-temperature thermochronology of the Yakutat plate corner, St. Elias Range (Alaska): bridging short-term and long-term deformation: Quaternary Science Reviews, v. 113, p. 23-38, doi: doi.org/10.1016/j.quascirev.2014.10.019 </p>
+                <p class="Sources"> Enkelmann, E., Piestrzeniewicz, A., Falkowski, S., Stübner, K., and Ehlers, T.A., 2017, Thermochronology in southeast Alaska and southwest Yukon: Implications for North American Plate response to terrane accretion: Earth and Planetary Science Letters, v. 457, p. 348-358, doi: doi.org/10.1016/j.epsl.2016.10.032 </p>
+                <p class="Sources"> Fitzgerald, P.G., Sorkhabi, R.B., Redfield, T.F., and Stump, E., 1995, Uplift and denudation of the central Alaska Range: A case study in the use of apatite fission track thermochronology to determine absolute uplift parameters: Journal of Geophysical Research: Solid Earth, v. 100, p. 20175-20191, doi: doi.org/10.1029/95JB02150 </p>
+                <p class="Sources"> Frohman, R.A., 2014, Identification and evolution of tectonic faults in the greater Fairbanks Area, Alaska [Ph.D. thesis]: University of Alaska Fairbanks, 248 p. </p>
+                <p class="Sources"> Hacker, B.R., Kelemen, P.B., Rioux, M., McWilliams, M.O., Gans, P.B., Reiners, P.W., Layer, P.W., Söderlund, U., and Vervoort, J.D., 2011, Thermochronology of the Talkeetna intraoceanic arc of Alaska: Ar/Ar, U-Th/He, Sm-Nd, and Lu-Hf dating: Tectonics, v. 30, TC1011, doi: doi.org/10.1029/2010TC002798 </p>
+                <p class="Sources"> Haeussler, P.J., Armstrong, P.A., Liberty, L.M., Ferguson, K.M., Finn, S.P., Arkle, J.C., and Pratt, T.L., 2015, Focused exhumation along megathrust splay faults in Prince William Sound, Alaska: Quaternary Science Reviews, v. 113, p. 8-22, doi: 0.1016/j.quascirev.2014.10.013 </p>
+                <p class="Sources"> Lease, R.O., 2018, Pliocene erosional pulse and glacier-landscape feedbacks in the western Alaska Range: Earth and Planetary Science Letters, v. 497, p. 62-68, doi: doi.org/10.1016/j.epsl.2018.06.009 </p>
+                <p class="Sources"> Lease, R.O., Haeussler, P.J., Witter, R.C., Stockli, D.F., Bender, A.M., Kelsey, H.M., and O’Sullivan, P.B., 2021, Extreme Quaternary plate boundary exhumation and strike slip localized along the southern Fairweather fault, Alaska, USA: Geology, v. 49, p. 602-606, doi: doi.org/10.1130/G48464.1 </p>
+                <p class="Sources"> Little, T.A., and Naeser, C.W., 1989, Tertiary tectonics of the Border Ranges Fault System, Chugach Mountains, Alaska: Deformation and uplift in a forearc setting: Journal of Geophysical Research: Solid Earth, v. 94, p. 4333-4359, doi: doi.org/10.1029/JB094iB04p04333 </p>
+                <p class="Sources"> McAleer, R.J., Spotila, J.A., Enkelmann, E., and Berger, A.L., 2009, Exhumation along the Fairweather fault, southeastern Alaska, based on low-temperature thermochronometry: Tectonics, v. 28, TC1007, p. 1-17, doi: 10.1029/2007TC002240 </p>
+                <p class="Sources"> Meigs, A., Johnston, S., Graver, J., and Spotila, J., 2008, Crustal-scale structural architecture, shortening, and exhumation of an active, eroding orogenic wedge (Chugach/St Elias Range, southern Alaska): Tectonics, v. 27, TC4003, 26 p., doi:10.1029/2007TC002168 </p>
+                <p class="Sources"> Milde, E.R., 2014, Using Low-Temperature Thermochronology to Constrain the Role of the Totschunda Fault in Southeastern Alaskan Tectonics [MS thesis]: Syracuse University, 136 p. </p>
+                <p class="Sources"> O’Sullivan, P.B., and Currie, L.D., 1996, Thermotectonic history of Mt Logan, Yukon Territory, Canada: implications of multiple episodes of middle to late Cenozoic denudation: Earth and Planetary Science Letters, v. 144, p. 251-261, doi: doi.org/10.1016/0012-821X(96)00161-6 </p>
+                <p class="Sources"> Perry, S.E., 2014, Thermoctonic evolution of the Alaska Range: low-temperature thermochronologic constraints [Ph.D. thesis]: Syracuse University, 845 p. </p>
+                <p class="Sources"> Riccio, S.J., Fitzgerald, P.G., Benowitz, J.A., and Roeske, S.M., 2014, The role of thrust faulting in the formation of the eastern Alaska Range: Thermochronological constraints from the Susitna Glacier Thrust Fault region of the intracontinental strike-slip Denali Fault system: Tectonics, v. 33, p. 2195-2217, doi: doi.org/10.1002/2014TC003646 </p>
+                <p class="Sources"> Spotila, J.A., Bushcer, J.T., Meigs, A.J., and Reiners, P.W., 2004, Long-term glacial erosion of active mountain belts: Example of the Chugach-St. Elias Range, Alaska: Geology, v. 32, p. 501-504, doi: 10.1130/G20343.1 </p>
+                <p class="Sources"> Terhune, P.J., Benowitz, J.A., Trop, J.M., O’Sullivan, P.B., Gillis, R.J., Gillis, J., and Freymueller, J.T., 2019, Cenozoic tectono-thermal history of the southern Talkeetna Mountains, Alaska: Insights into a potentially alternating convergent and transform plate margin: Geosphere, v. 15, p. 1539-1576, doi: doi.org/10.1130/GES02008.1 </p>
+                <p class="Sources"> Waldien, T.S., Roeske, S.M., Benowitz, J.A., Allen, W.K., Ridgway, K.D., and O’Sullivan, P.B., 2018, Late Miocene to Quaternary evolution of the McCallum Creek thrust system, Alaska: Insights for range-boundary thrusts in transpressional orogens: Geosphere, v. 14, p. 2379-2406, doi: doi.org/10.1130/GES01676.1 </p>
+                <p class="Sources"> Waldien, T.S., Lease, R.O., Roeske S.M., Benowitz, J.A., and O’Sullivan, 2022, The role of preexisting upper plate strike-slip faults during long-lived (ca. 30 Myr) oblique flat slab subduction, southern Alaska: Earth and Planetary Science Letters, v. 577, p. 117242, doi: 10.1016/j.epsl.2021.117242 </p>
+                <p class="Sources"> Warfel, T., 2018, Low Temperature Thermochronologic Constraints Across the East-Central Denali Fault: Evaluating Vertical Tectonics Along a Transpressive Orogen [MS thesis]: Syracuse University, 118 p. </p>
+            </div>
+        </div>
+
+        <script>
+            myButton.addEventListener("click", function () {
+                myPopup.classList.add("show");
+            });
+            closePopup.addEventListener("click", function () {
+                myPopup.classList.remove("show");
+            });
+            window.addEventListener("click", function (event) {
+                if (event.target == myPopup) {
+                    myPopup.classList.remove("show");
+                }
+            });
+        </script>
+		
+
+        <script src="lib/d3.js"></script>
+		<script src="lib/topojson.js"></script>
+        
+		<script type="text/javascript" src="lib/leaflet/leaflet-src.js"></script>
+        <script src="lib/Fullscreen/Control.FullScreen.js"></script>
+
+        <script type="text/javascript" src="js/samples.js"></script>
+    </body>
+</html>
