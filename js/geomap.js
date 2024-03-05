@@ -335,9 +335,20 @@ require([
 		"content": "<b>Map unit: </b> {STATE_LABE} <br><b>Age: </b> {Age} <br><b> Rock generalization: </b>{Generalize}"
 	}
 
+	/*
 	const basementGEO = new GeoJSONLayer({
 		title: "Alaska Basement Geology",
 		url: "data/Alaska_GEO_Basement_AgeGen.geojson",
+		copyright: "Geological Survey Scientific Investigations",
+		outFields: ["STATE_UNIT", "STATE_LABE", "AGE_RANGE", "Generalize", "Age", "AgeGen"],
+		popupTemplate: geoPopup,
+		renderer: genRender
+	})
+	*/
+
+	const basementGEO = new FeatureLayer({
+		title: "Alaska Basement Geology",
+		url: "https://services.arcgis.com/HRPe58bUyBqyyiCt/arcgis/rest/services/Alaska_GEO_Basement_AgeGen/FeatureServer",
 		copyright: "Geological Survey Scientific Investigations",
 		outFields: ["STATE_UNIT", "STATE_LABE", "AGE_RANGE", "Generalize", "Age", "AgeGen"],
 		popupTemplate: geoPopup,
