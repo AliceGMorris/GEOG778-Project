@@ -14,17 +14,17 @@
         <div class="navbar">
             <a href="index.html">Home</a>
             <div class="nav_dropdown">
-                <button class="dropbtn">Education 
+                <button class="dropbtn"><a href="education.html">Education</a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="education.html">Thermochronology 101</a>
+                    <a href="education.html#Thermo">Thermochronology 101</a>
                     <a href="education.html#AFTvAHe">AFT vs AHe</a>
                     <a href="education.html#SA101">Intro to Southern Alaska</a>
                 </div>
             </div> 
             <div class="nav_dropdown">
-                <button class="dropbtn">Southern Alaska 
+                <button class="dropbtn"><a href="geologicmap.html">Interactive Maps </a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
@@ -33,32 +33,50 @@
                 </div>
             </div>
             <div class="nav_dropdown">
-                <button class="dropbtn">Analysis
+                <button class="dropbtn"><a href="stats.html">Analysis</a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="stats.html">Main Points</a>
+                    <a href="stats.html#analysis">Main Points</a>
                     <a href="stats.html#histoGraph">Histogram</a>
                     <a href="stats.html#missing">Areas of Missing Data</a>
                 </div>
-            </div> 
+            </div>
+            <button id="myButton"> Sources </button>
         </div>
 
 		<div id="title"><h1>Education</h1></div>
         <div id="Thermo"><h2>Thermochronology 101</h2>
             <div class="Words">
             <h3 style="color:#0F204B;">What is thermochronology?</h3>
-                <p class="Para"> Placeholder text </p>  
-            <h3 style="color:#0F204B;">Main Points</h3> 
+                <p class="Para"> Thermochronology is a geochronologic technique that provides constraints on possible time-temperature histories of rocks. (Reiners 2021) </p>  
+            <h3 style="color:#0F204B;">Main Points<sup>1,2</sup></h3> 
             <p class="Para"> 
-                <li class="wordList">Placeholder text</li></p>
-            <h3 style="color:#0F204B;">Thermochronology and Orogenic Systems</h3> 
+                <li class="wordList">(U-Th)/He, fission-track, and <sup>40</sup>Ar/<sup>39</sup>Ar are the three main methods for determining thermal histories at temperatures below 300-550°C</li>
+                <li class="wordList" style="margin-left:2em;">All three methods use the predictability of nuclear decay to date time</li>
+                <li class="wordList">These radioisotopic clocks are thermally sensitive, as such they provide information about the cooling history of the rock instead of crystallization ages. These ages are referred to as cooling ages</li>
+                <li class="wordList">Closure temperature is the range of temperatures where a mineral and its method becomes a closed system and a cooling age is stored</li>
+                <li class="wordList">While a mineral stays below the closure temperature, it becomes a closed system and it locks in the age at which this occurred. When a mineral is subject to temperatures above its closure temperature it becomes an open system. If subject to these conditions for long enough, all evidence of its past age is erased</li>
+                <li class="wordList">Apatite and zircon are the most commonly used low cooling age mineral thermochronometers</li>
+            </p>
+            <h3 style="color:#0F204B;">Thermochronology and Orogenic Systems<sup>1</sup></h3> 
             <p class="Para"> 
-                <li class="wordList">Placeholder text</li></p>
+                <li class="wordList">Low temperature settings use the three above methods to determine the cooling histories of igneous rocks</li>
+                <li class="wordList" style="margin-left:2em;">High temperature cooling histories, such as may be used for continental arc terrains, use (U-Th)/Pb methodology with titanite and apatite</li>
+                <li class="wordList">Pressure-temperature paths followed by metamorphic rocks during orogenesis can be determined using a combination of element partitioning and fluid inclusion thermobarometry with thermodynamic modelling of porphyroblast zoning</li>
+                <li class="wordList">By determining the crystallization age of an igneous unit and if it is post- or pre-kinematic in respect to a particular deformational feature, a minimum or maximum age can be assigned to the unit in an orogenic setting where multiple generations of intrusive or extrusive rocks exist</li>
+                <li class="wordList">Cooling ages of multiple thermochronometers can be used to determine the time of uplift of a region</li>
+                <li class="wordList" style="margin-left:2em;">Unroofing history can be determined by relating cooling rate (dT/dt) of a single sample to its unroofing rate (dz/dt) through an assumed geothermal gradient (y):<br><br> dz/dt ≈ (1/y)*(dT/dt)</li>
+                <li class="wordList" style="margin-left:2em;">Cooling rate can be determined by using at least two thermochronometers. As an example, a range of samples collected over varying elevations (ε) of apatite (U-Th)/He closure dates (T<sub>cb</sub>) results in: <br><br> dz/dt ≈ dε/dt<sub>cb</sub></li>
+                <li class="wordList">Since apatite closure ages are strongly influenced by topography, then its spatial patterns can be used to reconstruct the evolution of topography </li>
+                <li class="wordList">Patterns of bedrock cooling ages can be used to explain how deformational structures and topography co-evolve during orogenesis</li>
+                <li class="wordList">Depositional ages can be compared with cooling ages in detrital minerals to determine timescales for erosion and transport in orogenic settings</li>
+            </p>
         </div></div>
         
         <div id="AFTvAHe"><h2>AFT vs AHe</h2>
         <div class="Words_right">
+            <div class="Box">
             <h3 style="color:#0F204B;">Main Points</h3>
             <table>
                 <tr>
@@ -76,24 +94,23 @@
                   <td>Uses the damage caused by the fission decay of <sup>238</sup>U<sup>b</sup> </td>
                   <td>Uses the concentration of <sup>4</sup>He and its parent isotopes <sup>238</sup>U, <sup>235</sup>U, and <sup>232</sup>Th (in some cases <sup>147</sup>Sm is used)<sup>c</sup></td>
                 </tr>
-                <tr>
-                    <td>Placeholder text:</td>
-                    <td>Placeholder text AFT </td>
-                    <td>Placeholder text AHe</td>
-                  </tr>
               </table>
-              <p><sup>a</sup>Assumes a cooling rate of 10 °C My<sup>-1</sup> and rounded to nearest 10 °C</p>
-              <p><sup>b</sup>See fission track methodology for more information</p> 
-              <p><sup>c</sup>See (U-Th)/He methodology for more information</p>
+              <p style="font-size: small; padding-right: 10px;"><sup>a</sup>Assumes a cooling rate of 10 °C My<sup>-1</sup> and rounded to nearest 10 °C</p>
+              <p style="font-size: small; padding-right: 10px;"><sup>b</sup>See fission track methodology for more information</p> 
+              <p style="font-size: small; padding-right: 10px;"><sup>c</sup>See (U-Th)/He methodology for more information</p>
+            </div>
             
             <h3 style="color:#0F204B;">Closure temperatures:</h3>
                 <p class="Words_right" style="border-color: rgb(0, 0, 0, 0);"><img class="cloTemp" src="img/Closure Temperatures.png" alt="Thermochronology closure temperatures"></p>
 
-            <h3 style="color:#0F204B;">Fission track methodology</h3>
-            <p class="Words_right">Placeholder text</p>
+            <div class="Box">
+            <h3 style="color:#0F204B;">Fission track methodology<sup>2</sup></h3>
+            <p class="Words_right" style="text-align: left;">Fission-track (FT) method uses the damage caused by the fission decay of <sup>238</sup>U. As <sup>238</sup>U decays, fission causes the atom to split into two atomic fragments, which produce ionization damage along their paths. Fresh FTs have a length of ~11 μm in zircon and ~16 μm in apatite. Thermally activated diffusions allows the damage to anneal. Temperatures as a result, it must remain low on a geologic timescale to retain FTs. </p>
+            <p class="Words_right" style="text-align: left;">To measure the mineral grains, the grains are mounted, polished, chemically etched, then counted using a high-power optical microscope. Neutron irradiation in a nuclear reactor, which induces fission of <sup>235</sup>U, is used to determine the concentration of the parent isotope. The natural ration of <sup>235</sup>U/<sup>238</sup>U is fixed, so concentrations of one can be used to determine the other. A U-free mica sheet is placed over the polished grains of the mount where the chemical etching of the mica monitor reveals the density of induced <sup>235</sup>U. The mica monitor and mount are assembled with registration marks which allows the operator to measure the individual mineral grains. FT ages have a relative standard error of ~12% for zircon and ~50% for apatite. FT final ages use the average of multiple grains and has a relative standard error of 5% to 10%.</p>
 
-            <h3 style="color:#0F204B;">(U-Th)/He methodology</h3>
-            <p class="Words_right">Placeholder text</p>
+            <h3 style="color:#0F204B;">(U-Th)/He methodology<sup>2</sup></h3>
+            <p class="Words_right" style="text-align: left;">Concentrations of <sup>4</sup>He and parent isotopes can be used to calculate He cooling age. The crystal is degassed by heating and gas-source mass spectrometry is used to measure <sup>4</sup>He. Then inductively-coupled plasma mass spectrometry is used on the same crystal to measure U and Th (sometimes Sm). Grains have a relative standard error of 3% to 5%.</p>
+            </div>
 
         </div></div>
 
@@ -105,7 +122,7 @@
                 <li class="wordList">The most recent terrane accretion event is the northward collision of the Yakutat oceanic plateau, which has been colliding with southern Alaska during the Oligocene to Holocene. The resulting collision has led to the growth of the largest coastal mountain range on Earth.<sup>3</sup></li>
                 <li class="wordList">The collision remains active with evidence of active mountain building, large magnitude earthquakes, and some of the highest sediment accumulation rates on Earth.<sup>3</sup></li>
                 <li class="wordList">Deformation in southern Alaska is characterized by convergent and strike-slip fault systems including the Denali fault, Fairweather fault, and the Castle Mountain fault.<sup>4,5</sup></li>
-                <li class="wordList">Placeholder text</li></p>
+            </p>
             <h3 style="color:#0F204B;">Southern Alaska and thermochronology</h3>
             <p class="Para">
                 <li class="wordList">The active deformation zones are associated with uplifted topography, the time at which the area was uplifted can be inferred using thermochronology. Young AHe and AFT cooling ages are associated with coastal and inland mountain ranges and can be used to determine the rates, depth, and time of bedrock cooling for these mountains.<sup>6,7,8</sup></li>
@@ -114,17 +131,16 @@
                 <li class="wordList">Exhumation rates show recent, rapid cooling, spatially associated with active faults:</li>
                 <li class="wordList" style="margin-left:2em;">Exhumation rates using AFT data are calculated to be 1 mm/yr on average in the St. Elias Range along the coast of southern Alaska, while exhumation rates using AHe are calculated to be between 0.5 and 3 mm/yr.<sup>6</sup></li>
                 <li class="wordList" style="margin-left:2em;">Near the Fairweather fault, one of the most well documented faults in Alaska, calculated exhumation rates based on AHe are 2mm/yr.<sup>6,7</sup></li>
-                <li class="wordList">Placeholder text</li></p>
+            </p>
             <h3 style="color:#0F204B;">Map of Southern Alaska</h3>
-                <p class="Words" style="font-size: 0.75em;"><img src="img/Placeholder.jpg" alt="Elevation and fault map of Alaska">
+                <p class="Words" style="font-size: 0.75em;"><img src="img/Topo.jpg" alt="Elevation and fault map of Alaska">
                 (Using data from the U.S. Geological Survey and Koehler, 2013)</p>
             </div></div>
 
-        <button id="myButton"> Sources </button>
         <div id="myPopup" class="popup">
             <div class="popup-content">
                 <button id="closePopup"> Close </button>
-                <h1> Sources: </h1>
+                <h1> Page Sources: </h1>
                 <h2> Cited </h2>
                 <p class="Sources"><sup>1</sup>Hodges, K.V., 2014, Thermochronology in Orogenic Systems, <i>in</i> Turekian, K.K., Holland, H.D., ed., Treatise on Geochemistry (second edition): Elsevier Inc., p. 281-308, https://doi.org/10.1016/B978-0-08-095975-7.00308-9</p>
                 <p class="Sources"><sup>2</sup>Reiners, P.W., and Brandon, M.T., 2006, Using thermochronology to understand orogenic erosion: Annu. Rev. Earth Planet. Sci., v. 34, p. 419-466, doi: 10.1146/annurev.earth.34.031405.125202</p>
@@ -136,7 +152,8 @@
                 <p class="Sources"><sup>8</sup>Arkle, J.C., Armstrong, P.A., Haeussler, P.J., Michael, G.P., Hartman, S., Sendziak, K.L., and Brush, J.A., 2013, Focused exhumation in the syntaxis of the western Chugach Mountains and Prince William Sound, Alaska: GSA Bulletin, v. 125, p. 776-793, doi: 10.1130/B30738.1</p>
                 <p class="Sources"><sup>9</sup>Waldien, T.S., Lease, R.O., Roeske S.M., Benowitz, J.A., and O’Sullivan, 2022, The role of preexisting upper plate strike-slip faults during long-lived (ca. 30 Myr) oblique flat slab subduction, southern Alaska: Earth and Planetary Science Letters, v. 577, p. 117242, doi: 10.1016/j.epsl.2021.117242</p>
 
-                <h2> Additional </h2>
+                <h2> Additional (In order of appearance)</h2>
+                <p class="Sources">Reiners, P.W., 2021, Thermochronology, <i>in</i> Alderton, D., Elias, S.A., ed., Encylopedia of Geology (second edition): Elsevier Inc., p. 132-139, https://doi.org/10.1016/B978-0-12-409548-9.12114-1</p>
                 <p class="Sources">Carlson, R.W., 2021, Absolute Age Determinations: Radiometric, <i>in</i> Gupta, H.K., ed., Encyclopedia of Solid Earth Geophysics (second edition): Springer, p. 1-8, https://doi.org/10.1007/978-3-030-58631-7_69</p>
                 <p class="Sources">U.S. Geological Survey, 2003, EDNA.EDNA_AK_ORIG_DEM, Elevation Derivatives for National Applications (EDNA), U.S. Geological Survey Earth Resources Observation and Science (EROS) Center</p>
                 <p class="Sources">U.S. Geological Survey, 2003, EDNA.EDNA_AK_RELIEF_ORIG, Elevation Derivatives for National Applications (EDNA), U.S. Geological Survey Earth Resources Observation and Science (EROS) Center</p>
@@ -157,5 +174,12 @@
                 }
             });
         </script>
+
+        <footer>
+            <div>© 2024 Alice G. Morris</div>
+            <div><a href="" target="_blank">Portfolio</a></div>
+            <div><a href="https://alicegmorris.github.io/GEOG778-Project/" target="_blank">Github page</a></div>
+            <div><a href="https://github.com/AliceGMorris/GEOG778-Project" target="_blank">Github repo</a></div>
+        </footer>
     </body>
 </html>

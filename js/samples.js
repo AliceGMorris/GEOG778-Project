@@ -35,45 +35,6 @@ function getMasterData() {
 		createMap();
 		createDropdown();
 	};
-	
-	fetch("data/QFaults.geojson")
-        .then(function(response){
-            return response.json();
-        })
-        .then(function(json){			
-            //call function to create proportional symbols
-            createFautlsSymbols(json);
-		
-        })
-};
-
-//Add circle markers for point features to the map
-function createFautlsSymbols(data){
-	//create marker options
-	var Faultoptions = {
-		 color: "#000000",
-		 weight: 2,
-		 opacity: 1,
-		 fillOpacity: 0.8
-	};
-	//create a Leaflet GeoJSON layer and add it to the map
-	var Faults = L.geoJson(data, Faultoptions).addTo(map);
-	 
-	Faults.eachLayer(function(layer){
-		var slip;
-		if (layer.feature.properties.SLIPSENSE == "SS") {
-			slip = "Strike Slip Fault";
-		} else if (layer.feature.properties.SLIPSENSE == "N") {
-			slip = "Normal Fault";
-		} else if (layer.feature.properties.SLIPSENSE == "R") {
-			slip = "Reverse Fault";
-		} else if (layer.feature.properties.SLIPSENSE == "T") {
-			slip = "Thrust Fault";
-		} else {
-			slip = "unkown";
-		}
-		layer.bindPopup("<strong>" + layer.feature.properties.NAME +"</strong><br><b>Fault type: </b>"+ slip +"<br><b>Slip Rate: </b>"+ layer.feature.properties.SLIPRATE + " mm/yr<br><b> Dip Direction: </b>" + layer.feature.properties.DIPDIRECTI + "<br><b>Fault location: </b>"+layer.feature.properties.FTYPE);
-	});
 };
 
 function createMap(){
@@ -110,8 +71,50 @@ function createMap(){
 		position: 'topright'
 	}).addTo(map);
 	
-	//call getData function
+	//get data
+	getFaults();
     getData();
+};
+
+function getFaults(){
+	fetch("data/QFaults.geojson")
+		.then(function(response){
+			return response.json();
+		})
+		.then(function(json){			
+			//call function to create proportional symbols
+			createFautlsSymbols(json);
+		
+		})
+}
+
+//Add fault line features to the map
+function createFautlsSymbols(data){
+	//create marker options
+	var Faultoptions = {
+		 color: "#000000",
+		 weight: 2,
+		 opacity: 1,
+		 fillOpacity: 0.8
+	};
+	//create a Leaflet GeoJSON layer and add it to the map
+	var Faults = L.geoJson(data, Faultoptions).addTo(map);
+	 
+	Faults.eachLayer(function(layer){
+		var slip;
+		if (layer.feature.properties.SLIPSENSE == "SS") {
+			slip = "Strike Slip Fault";
+		} else if (layer.feature.properties.SLIPSENSE == "N") {
+			slip = "Normal Fault";
+		} else if (layer.feature.properties.SLIPSENSE == "R") {
+			slip = "Reverse Fault";
+		} else if (layer.feature.properties.SLIPSENSE == "T") {
+			slip = "Thrust Fault";
+		} else {
+			slip = "unkown";
+		}
+		layer.bindPopup("<strong>" + layer.feature.properties.NAME +"</strong><br><b>Fault type: </b>"+ slip +"<br><b>Slip Rate: </b>"+ layer.feature.properties.SLIPRATE + " mm/yr<br><b> Dip Direction: </b>" + layer.feature.properties.DIPDIRECTI + "<br><b>Fault location: </b>"+layer.feature.properties.FTYPE);
+	});
 };
 
 function getData(){

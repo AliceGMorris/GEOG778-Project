@@ -1,0 +1,522 @@
+Code,Map Unit,Name,Age,Region,PageSource,Description,Generalized 
+1,bu,Bedrock of unknown type or age or areas not mapped,unknown,ST,142,,TECTONIC ASSEMBLAGES AND MÉLANGE
+2,CDbrv,Volcanic rocks and sills,Pennsylvanian? to Devonian,NR;NW,87;121;123,Clgv—Volcanic rocks and sills associated with Lisburne Group; MDtv—Tuffaceous volcanic rocks; Dv—Metavolcanic rocks and sills,VOLCANIC ROCKS; METAMORPHIC ROCKS
+3,Clgv,Volcanic rocks and sills associated with Lisburne Group,Pennsylvanian? and Mississippian,NR,87,,VOLCANIC ROCKS
+4,MDtv,Tuffaceous volcanic rocks,Mississippian? to Devonian,NW,121,,METAMORPHIC ROCKS
+5,Dv,Metavolcanic rocks and sills,Devonian,NR,123,,METAMORPHIC ROCKS
+6,Clg,"Lisburne Group, undivided",Carboniferous,NR,50,,SEDIMENTARY ROCKS
+7,Clgne,"Wahoo, Alapah, and Wachsmuth Limestones (Lisburne Group)",Middle Pennsylvanian to Mississippian,NE,51-52,*lgw—Wahoo Limestone; Mlga—Alapah Limestone; Mlgw—Wachsmuth Limestone,SEDIMENTARY ROCKS
+8,*lgw,*lgw—Wahoo Limestone,Middle and Lower Pennsylvanian and Upper Mississippian?,NE,51,,SEDIMENTARY ROCKS
+9,Mlga,Mlga—Alapah Limestone,Upper Mississippian,NE,52,,SEDIMENTARY ROCKS
+10,Mlgw,Wachsmuth Limestone,Mississippian,NE,52,,SEDIMENTARY ROCKS
+11,Clgtk,Tupik and Kogruk Formations (Lisburne Group),Pennsylvanian to Upper Mississippian,NW,50,Clgt—Tupik Formation; Clgk—Kogruk Formation,SEDIMENTARY ROCKS
+12,Clgt,Tupik Formation,Pennsylvanian and Upper Mississippian,NW,50,,SEDIMENTARY ROCKS
+13,Clgk,Kogruk Formation,Upper Mississippian,NW,50,,SEDIMENTARY ROCKS
+14,Crc,Rainbow chert (Togiak-Tikchik Complex),Carboniferous?,SW,135,,TECTONIC ASSEMBLAGES AND MÉLANGE
+15,_a,Adams Argillite,Cambrian,"EC, NE",73,,SEDIMENTARY ROCKS
+16,_<t,Tindir Group,Cambrian? and Proterozoic,"EC, NE",73,,SEDIMENTARY ROCKS
+17,_<wg,"Wales Group, undivided",Cambrian to Proterozoic,SE,128,_<wgm—Wales Group marble,METAMORPHIC ROCKS
+18,_<wgm,Wales Group marble,Cambrian to Proterozoic,SE,129,,METAMORPHIC ROCKS
+19,_<wn,Wickersham and Neruokpuk units,Cambrian and Proterozoic,"EC, CN, NE",73,,SEDIMENTARY ROCKS
+20,Das,Bimodal metavolcanic rocks,Devonian,NR,122,,METAMORPHIC ROCKS
+21,Dbf,"Beaucoup Formation, undivided",Devonian,NR,56,Dbfl—Limestone and similar rocks; Dbfw—Wacke member,SEDIMENTARY ROCKS
+22,Dbfl,Limestone and similar rocks,Upper and Middle Devonian,NR,56,,SEDIMENTARY ROCKS
+23,Dbfw,Wacke member,Upper Devonian,NR,56,,SEDIMENTARY ROCKS
+24,Dcc,Karheen and Cedar Cove Formations,Devonian,SE,63,,SEDIMENTARY ROCKS
+25,D_bg,Baird Group and similar rocks,Middle Devonian to upper Cambrian,"NE, NW",64,Dke—Kugururok Formation and Eli Limestone,SEDIMENTARY ROCKS
+26,Dke,Kugururok Formation and Eli Limestone,Devonian,"NE, NW",65,,SEDIMENTARY ROCKS
+27,D_mt,Metaturbidite marble and calcareous schist (Nome Complex),Devonian to Cambrian,SP,142,,BEDROCK
+28,D_sp,Schist and phyllite of the Alaska Range,Devonian or older,SC,124,|arqm—Pelitic and quartzose schist of the Alaska Range; DOmvs—Yanert Fork sequence of Csejtey and others (1992) and correlative rocks,METAMORPHIC ROCKS
+29,|arqm,Pelitic and quartzose schist of the Alaska Range,Devonian or older,SC,124,,METAMORPHIC ROCKS
+30,Domvs,Yanert Fork sequence of Csejtey and others (1992) and correlative rocks,Devonian to Ordovician?,SC,124,,METAMORPHIC ROCKS
+31,D_wbl,Farewell basinal facies carbonate rocks,Devonian or older,SW;WC,59-60,"D_d—White Mountain sequence, basinal facies; DSbr—Barren Ridge Limestone and correlative units; DSpf—Paradise Fork Formation and correlative units",SEDIMENTARY ROCKS
+32,D_d,"White Mountain sequence, basinal facies",Devonian to Cambrian or older,"SW, WC",59,,SEDIMENTARY ROCKS
+33,DSbr,Barren Ridge Limestone and correlative units,Devonian to Silurian?,WC,59,,SEDIMENTARY ROCKS
+34,DSpf,Paradise Fork Formation and correlative units,Lower Devonian and Silurian,SW,60,,SEDIMENTARY ROCKS
+35,Degh,Hunt Fork Shale (Endicott Group),Devonian,NR,54,,SEDIMENTARY ROCKS
+36,Degn,Noatak Sandstone (Endicott Group),Upper Devonian,NR,54,,SEDIMENTARY ROCKS
+37,Dgb,"Gambier Bay Formation, undivided",Devonian,SE,122,Dgbm—Marble of the Gambier Bay Formation,METAMORPHIC ROCKS
+38,Dgbm,Marble of the Gambier Bay Formation,Devonian,SE,122,,METAMORPHIC ROCKS
+39,DOgi,Older plutonic rocks of southeast Alaska,Early Devonian to Ordovician,SE,108,"DOgi—Syenite, trondhjemite, and granite; Ogi—Granodiorite and related rocks",INTRUSIVE ROCKS
+40,Dogi,"Syenite, trondhjemite, and granite",Early Devonian to Ordovician?,SE,108,,INTRUSIVE ROCKS
+41,Ogi,Granodiorite and related rocks,Ordovician,SE,108,,INTRUSIVE ROCKS
+42,DOls,Thin-bedded limestone,Lower Devonian to Ordovician,SW,66,,SEDIMENTARY ROCKS
+43,DOsc,"Shale, chert, and argillite",Lower Devonian to Ordovician,EC;SE;CN,66;69,"DOka—McCann Hill Chert, Road River Formation, and Troublesome unit of Weber and others (1992); DOhb—Hood Bay Formation; St—Turbidite deposits of southeast Alaska; Slc—Lost Creek unit",SEDIMENTARY ROCKS
+44,Doka,"McCann Hill Chert, Road River Formation, and Troublesome unit of Weber and others (1992)",Lower Devonian to Ordovician,EC,66,,SEDIMENTARY ROCKS
+45,Dohb,Hood Bay Formation,Lower? Devonian to Ordovician,SE,66,,SEDIMENTARY ROCKS
+46,St,Turbidite deposits of southeast Alaska,Silurian,SE,69,,SEDIMENTARY ROCKS
+47,Slc,Lost Creek unit,Silurian,CN,70,,SEDIMENTARY ROCKS
+48,DOtu,"Metasedimentary and metavolcanic rocks of Tukpahlearik Creek, undivided",Devonian to Ordovician,NW,123,"DOtu—Metasedimentary and metavolcanic rocks of Tukpahlearik Creek, undivided; DOtm—Marble of Tukpahlearik Creek; DOtp—Pelitic schist and metavolcanic rocks of Tukpahlearik Creek",METAMORPHIC ROCKS
+49,Dotu,"Metasedimentary and metavolcanic rocks of Tukpahlearik Creek, undivided",Devonian to Ordovician,NW,123,,METAMORPHIC ROCKS
+50,Dotm,Marble of Tukpahlearik Creek,Devonian to Ordovician,NW,124,,METAMORPHIC ROCKS
+51,Dotp,Pelitic schist and metavolcanic rocks of Tukpahlearik Creek,Devonian to Ordovician,NW,124,,METAMORPHIC ROCKS
+52,D<cn,Metasedimentary and metavolcanic rocks of the Central Belt and Northern Thrust assemblage of Till and others (2008a),Devonian to Proterozoic,NR,125-127;129,"D<asm—Mixed assemblage of metasedimentary and meta- volcanic rocks in the Brooks Range; D<sgm—Schist, paragneiss, and marble; Sbs—Black phyllite and metalimestone; |<b—Metasedimentary rocks of Bluecloud Mountain",METAMORPHIC ROCKS
+53,D<asm,Mixed assemblage of metasedimentary and meta- volcanic rocks in the Brooks Range,Devonian to Proterozoic,NR,126,,METAMORPHIC ROCKS
+54,D<sgm,"Schist, paragneiss, and marble",Devonian to Neoproterozoic,NR,125,,METAMORPHIC ROCKS
+55,Sbs,Black phyllite and metalimestone,Silurian,NR,127,,METAMORPHIC ROCKS
+56,|<b,Metasedimentary rocks of Bluecloud Mountain,Early Paleozoic to Proterozoic?,NR,129,,METAMORPHIC ROCKS
+57,D<ga,"Gneiss, amphibolite, schist, quartzite, and marble (Yukon- Tanana crystalline complex)",Devonian or older,EC,117,"|yms—Mafic schist and amphibolite; |<ybg—Biotite gneiss, marble, schist, quartzite, and amphibolite",METAMORPHIC ROCKS
+58,|yms,Mafic schist and amphibolite,Devonian or older Paleozoic,EC,117,,METAMORPHIC ROCKS
+59,|<ybg,"Biotite gneiss, marble, schist, quartzite, and amphibolite",Devonian or older,EC,117,,METAMORPHIC ROCKS
+60,D<nl,Older carbonate rocks of northern Alaska,Lower Devonian to Proterozoic?,NE;NR,65;72,"DZnl—Mount Copleston Limestone and Nanook Limestone; O<ls—Limestone, northern Alaska",SEDIMENTARY ROCKS
+61,DZnl,Mount Copleston Limestone and Nanook Limestone,Lower Devonian to Ediacaran,NE,65,,SEDIMENTARY ROCKS
+62,O<ls,"Limestone, northern Alaska",Ordovician through Proterozoic?,NR,72,,SEDIMENTARY ROCKS
+63,D<sb,Brooks Range schist belt,Devonian to Proterozoic,,125-126,D<aqm—Quartz-mica schist of the Brooks Range; D<acs—Calcareous schist of Brooks Range,METAMORPHIC ROCKS
+64,D<aqm,Quartz-mica schist of the Brooks Range,Devonian to Proterozoic,NR,125,,METAMORPHIC ROCKS
+65,D<acs,Calcareous schist of Brooks Range,Devonian to Proterozoic,NR,126,,METAMORPHIC ROCKS
+66,D<sq,Pelitic schist and quartzite and mafic interbeds (Yukon-Tanana crystalline complex),Devonian and older,NR,116-117,"|<yqs—Quartzite and pelitic schist; |<yqm—Pelitic schist, including Chena River sequence",METAMORPHIC ROCKS
+67,|<yqs,Quartzite and pelitic schist,Devonian and older,EC,116,,METAMORPHIC ROCKS
+68,|<yqm,"Pelitic schist, including Chena River sequence",Devonian and older,EC,117,,METAMORPHIC ROCKS
+69,DSsm,"Shallow-marine, carbonate-dominated rocks",Devonian and Silurian,CN;SE,62-64;70,"DSld—Shallow-marine, carbonate-dominated rocks; Dlse—Carbonate rocks of southeast Alaska; DSt—Tolovana Limestone; Sl—Limestone, southeast Alaska",SEDIMENTARY ROCKS
+70,DSld,"Shallow-marine, carbonate-dominated rocks",Devonian and Silurian?,CN,62,,SEDIMENTARY ROCKS
+71,Dlse,Carbonate rocks of southeast Alaska,Devonian,SE,63,,SEDIMENTARY ROCKS
+72,DSt,Tolovana Limestone,"Middle Devonian to Silurian, Llandovery?",CN,64,,SEDIMENTARY ROCKS
+73,Dof,Ogilvie Formation,Middle to Lower Devonian,CN,64,,SEDIMENTARY ROCKS
+74,Sl,"Limestone, southeast Alaska",Silurian,SE,70,,SEDIMENTARY ROCKS
+75,DSum,Older ultramafic rocks of southeast Alaska,Devonian and Silurian,SE,108,,INTRUSIVE ROCKS
+76,DSv,"Basalt, andesite, and sedimentary rocks",Devonian,SE,87-88,Dfr—Freshwater Bay and Port Refugio Formations; Dmv—Mixed volcanic rocks of southeast Alaska; Sv—Volcanic rocks in southeast Alaska,VOLCANIC ROCKS
+77,Dfr,Freshwater Bay and Port Refugio Formations,Late Devonian,SE,87,,VOLCANIC ROCKS
+78,Dmv,Mixed volcanic rocks of southeast Alaska,Middle to Early Devonian,SE,87,,VOLCANIC ROCKS
+79,Sv,Volcanic rocks in southeast Alaska,Silurian,SE,88,,VOLCANIC ROCKS
+80,Dvec,Woodchopper Volcanics and Schwatka unit of Weber and others (1992),Devonian,EC,87,,VOLCANIC ROCKS
+81,DZwp,Farewell platform facies,"Upper Devonian, Frasnian, to Neoproterozoic",SW,61,"DSwc—Whirlwind Creek Formation and correlative units; Ols—Lime mudstone; _Zls—Dolostone, limestone, orthoquartzite, and minor chert",SEDIMENTARY ROCKS
+82,DSwc,Whirlwind Creek Formation and correlative units,"Upper Devonian, Frasnian, through Silurian, Ludlow",SW,61,,SEDIMENTARY ROCKS
+83,Ols,Lime mudstone,Ordovician,SW,61,,SEDIMENTARY ROCKS
+84,_Zls,"Dolostone, limestone, orthoquartzite, and minor chert",Cambrian and Neoproterozoic?,"SW, WC",62,,SEDIMENTARY ROCKS
+85,DZyf,Clastic and carbonate rocks of the Yukon Flats Basin,Devonian to Neoproterozoic?,EC;CN;NE,57-58,"Dnr—Nation River Formation; Dcr—Cascaden Ridge and Beaver Bend combined correlative units; Dq—Quail unit of Weber and others (1992); Dyp—Phyllite, slate, and black shale; Dyss—Clastic and calcareous clastic rocks; |pr—Older clastic strata of the Porcupine River sequence of Brosgé and Reiser (1969); DZkb—Older carbonate strata of the Porcupine River se- quence of Brosgé and Reiser (1969) and equivalent units",SEDIMENTARY ROCKS
+86,Dnr,Nation River Formation,Upper and Middle? Devonian,EC,57,,SEDIMENTARY ROCKS
+87,Dcr,Cascaden Ridge and Beaver Bend combined correlative units,Devonian,CN,57,,SEDIMENTARY ROCKS
+88,Dq,Quail unit of Weber and others (1992),Upper Devonian,CN,57,,SEDIMENTARY ROCKS
+89,Dyp,"Phyllite, slate, and black shale",Devonian?,NE,57,,SEDIMENTARY ROCKS
+90,Dyss,Clastic and calcareous clastic rocks,Devonian,NE,58,,SEDIMENTARY ROCKS
+91,|pr,Older clastic strata of the Porcupine River sequence of Brosgé and Reiser (1969),Lower Paleozoic,NE,58,,SEDIMENTARY ROCKS
+92,DZkb,Older carbonate strata of the Porcupine River se- quence of Brosgé and Reiser (1969) and equivalent units,Middle Devonian to Neoproterozoic?,"CN, NE",58,,SEDIMENTARY ROCKS
+93,DZyk,Sedimentary and metasedimentary rocks of York terrane,Lower Devonian to Ordovician,SP,67-68,"|gp—Phyllite and argillite, Grantley Harbor Fault Zone; DSyl—Limestone of the Seward Peninsula; SOyl—Dark limestone; SOyld—Limestone, dolostone, and shale; Oyl—Argillaceous limestone and limestone",SEDIMENTARY ROCKS
+94,|gp,"Phyllite and argillite, Grantley Harbor Fault Zone",Lower Paleozoic,SP,67,,SEDIMENTARY ROCKS
+95,Dsyl,Limestone of the Seward Peninsula,Lower Devonian and (or) Silurian,SP,67,,SEDIMENTARY ROCKS
+96,Soyl,Dark limestone,Silurian and Upper Ordovician,SP,67,,SEDIMENTARY ROCKS
+97,Soyld,"Limestone, dolostone, and shale",Silurian and Ordovician,SP,67,,SEDIMENTARY ROCKS
+98,Oyl,Argillaceous limestone and limestone,Middle and Lower Ordovician,SP,68,,SEDIMENTARY ROCKS
+99,Jag,Bokan Mountain peralkaline granite and syenite,Middle Jurassic,SE,103,,INTRUSIVE ROCKS
+100,JDmc,"Mystic structural complex, undivided",Jurassic to Devonian,SW,37,,SEDIMENTARY ROCKS
+101,JDoc,Igneous rocks (Angayucham),Jurassic to Devonian,"NE, NR, SW, WC",30,,SEDIMENTARY ROCKS
+102,Jegr,Intermediate to mafic plutonic rocks,Early Jurassic,EC;SC;SW,104,Jg—Plutons of the Yukon-Tanana Upland; Jhg—Plutonic rocks of Hidden terrane; Jegd—Granodiorite of Hagemeister Island,INTRUSIVE ROCKS
+103,Jg,Plutons of the Yukon-Tanana Upland,Early Jurassic,EC,104,,INTRUSIVE ROCKS
+104,Jhg,Plutonic rocks of Hidden terrane,Early Jurassic,SC,104,,INTRUSIVE ROCKS
+105,Jegd,Granodiorite of Hagemeister Island,Early Jurassic,SW,104,,INTRUSIVE ROCKS
+106,Jk,Graywacke of Kulukak Bay of Hoare and Coonrad (1978),Upper to Middle Jurassic,SW,39,,SEDIMENTARY ROCKS
+107,Jlmgr,Plutonic rocks,Late and Middle Jurassic,SC;SW;WC;SE;SP,100;102-103,"Jtr—Trondhjemite; Jise—Granitic rocks of southeast Alaska; Jgr—Jurassic phase, Alaska-Aleutian Range batholith, undifferentiated; Jit—Spruce Creek tonalite",INTRUSIVE ROCKS
+108,Jtr,Trondhjemite,Jurassic,"SC, SW, WC",100,,INTRUSIVE ROCKS
+109,Jise,Granitic rocks of southeast Alaska,Jurassic,SE,100,,INTRUSIVE ROCKS
+110,Jgr,"Jurassic phase, Alaska-Aleutian Range batholith, undifferentiated",Jurassic,"SC, SW",102,,INTRUSIVE ROCKS
+111,Jit,Spruce Creek tonalite,Middle Jurassic,SP,103,,INTRUSIVE ROCKS
+112,JMct,Cherty tuff and breccia (Angayucham),Jurassic? to Mississippian,WC,31,,SEDIMENTARY ROCKS
+113,JMps,"Clastic and carbonate rocks, Porcupine River region",Jurassic to Mississippian,EC;NE,39,"JMpu—Younger strata of the Porcupine River sequence of Brosge and Reiser (1969), undivided; JMsu—Strangle Woman Creek sequence of Brosgé and Reiser (1969), undivided",SEDIMENTARY ROCKS
+114,Jmpu,"Younger strata of the Porcupine River sequence of Brosge and Reiser (1969), undivided",Jurassic to Mississippian,"EC, NE",39,,SEDIMENTARY ROCKS
+115,Jmsu,"Strangle Woman Creek sequence of Brosgé and Reiser (1969), undivided",Jurassic to Mississippian,EC,39,,SEDIMENTARY ROCKS
+116,JPk,Kakhonak Complex and Tlikakila complex of Carlson and Wallace (1983),"Jurassic, Triassic, and older?","SC, SW",138,,TECTONIC ASSEMBLAGES AND MÉLANGE
+117,JPs,Calcareous and metabasaltic schist and phyllite (Togiak- Tikchik Complex),Early Jurassic to Permian,SW,134,,TECTONIC ASSEMBLAGES AND MÉLANGE
+118,J*e,"Etivluk Group, undivided",Middle Jurassic to Pennsylvanian,NR,40,J^o—Otuk Formation; ^*eg—Siksikpuk Formation and Imnaitchiak Chert,SEDIMENTARY ROCKS
+119,J^o,Otuk Formation,Middle Jurassic to Triassic,NR,40,,SEDIMENTARY ROCKS
+120,^*eg,Siksikpuk Formation and Imnaitchiak Chert,Triassic to Pennsylvanian,NR,41,,SEDIMENTARY ROCKS
+121,J|c,"Chulitna sequence, undivided",Jurassic to upper Paleozoic,SC,36-37;46,"J^ct—Crystal tuff, argillite, chert, graywacke, and limestone; J^rb—Red and brown sedimentary rocks and basalt; ^lb—Limestone and basalt sequence; ^|vs—Volcanic and sedimentary rocks; ^rs—Red beds",SEDIMENTARY ROCKS
+122,J^ct,"Crystal tuff, argillite, chert, graywacke, and limestone",Upper Jurassic to Upper Triassic?,SC,36,,SEDIMENTARY ROCKS
+123,J^rb,Red and brown sedimentary rocks and basalt,Lower Jurassic and Upper Triassic,SC,36,,SEDIMENTARY ROCKS
+124,^lb,Limestone and basalt sequence,"Upper Triassic, Norian",SC,37,,SEDIMENTARY ROCKS
+125,^|vs,Volcanic and sedimentary rocks,Lower Triassic to upper Paleozoic,SC,37,,SEDIMENTARY ROCKS
+126,^rs,Red beds,"Triassic, Norian and older?",SC,46,,SEDIMENTARY ROCKS
+127,J|s,Northern Alaska sedimentary rocks,Middle Jurassic to Carboniferous,NR,41,,SEDIMENTARY ROCKS
+128,Jsct,Shelikof and Chinitna Formations and Tuxedni Group,Middle Jurassic,AP;SC,39-40,Jsc—Shelikof and Chinitna Formations; Jt—Tuxedni Group,SEDIMENTARY ROCKS
+129,Jsc,Shelikof and Chinitna Formations,"Middle Jurassic, Callovian","AP, SC",39,,SEDIMENTARY ROCKS
+130,Jt,Tuxedni Group,Middle Jurassic,"AP, SC",40,,SEDIMENTARY ROCKS
+131,Jtk,Talkeetna Formation,Early Jurassic,"AP, SC",84,,VOLCANIC ROCKS
+132,J^kp,Limestone and volcanic rocks of the Kenai Peninsula,"Early Jurassic and Late Triassic, Norian",SC,44;85,^pg—Port Graham formation of Kelley (1980); J^pf—Pogibshi formation of Kelley (1980),SEDIMENTARY ROCKS
+133,^pg,Port Graham formation of Kelley (1980),"Upper Triassic, Norian",SC,44,,SEDIMENTARY ROCKS
+134,J^pf,Pogibshi formation of Kelley (1980),Early Jurassic and Late Triassic?,SC,85,,VOLCANIC ROCKS
+135,J^mv,Tatina River volcanics of Bundtzen and others (1997a) (Mystic structural complex),Jurassic and Triassic,WC;SC,37-38,"J^mv—Tatina River volcanics of Bundtzen and others (1997a) and similar mafic volcanic rocks; J^v—Tatina River volcanics of Bundtzen and others (1997a), gabbro and diorite",SEDIMENTARY ROCKS
+136,J^mv,Tatina River volcanics of Bundtzen and others (1997a) and similar mafic volcanic rocks,Jurassic and Triassic,WC,37,,SEDIMENTARY ROCKS
+137,J^v,"Tatina River volcanics of Bundtzen and others (1997a), gabbro and diorite",Jurassic and Triassic,"SC, WC",38,,SEDIMENTARY ROCKS
+138,J^os,Newenham ophiolite complex,Jurassic and Triassic,SW,138,,TECTONIC ASSEMBLAGES AND MÉLANGE
+139,J^sch,Blueschist of southern Alaska,Early Jurassic to Triassic,"SC, SW",112,,METAMORPHIC ROCKS
+140,J^sr,Spiculitic rocks,Lower Jurassic and Upper Triassic,SC;WC,42,J^mc—McCarthy Formation; ^sl—Spiculite and sandy limestone,SEDIMENTARY ROCKS
+141,J^mc,McCarthy Formation,Lower Jurassic and Upper Triassic,SC,42,,SEDIMENTARY ROCKS
+142,^sl,Spiculite and sandy limestone,"Upper Triassic, Norian",WC,42,,SEDIMENTARY ROCKS
+143,JZu,"Mafic and ultramafic rocks in central, western, and northern Alaska",Jurassic to late Proterozoic,NW;NE;NW;WC;EC;CN,101;105-106;108,"J^ob—Ophiolite of the Brooks Range; J|tu—Ultramafic complexes of western Alaska; }|yo—Peridotite of dismembered ophiolite of the Yukon- Tanana region; ^c—Carbonatite; ^|ig—Gabbro and diabase; |<mi—Mafic igneous rocks, central and northeast Alaska",INTRUSIVE ROCKS
+144,J^ob,Ophiolite of the Brooks Range,Jurassic to Triassic?,NW,101,,INTRUSIVE ROCKS
+145,J|tu,Ultramafic complexes of western Alaska,Jurassic or older,"NE, NW, WC",101,,INTRUSIVE ROCKS
+146,}|yo,Peridotite of dismembered ophiolite of the Yukon- Tanana region,"Mesozoic, Triassic? or older",EC,105,,INTRUSIVE ROCKS
+147,^c,Carbonatite,Late Triassic,CN,105,,INTRUSIVE ROCKS
+148,^|ig,Gabbro and diabase,Triassic or late Paleozoic,CN,106,,INTRUSIVE ROCKS
+149,|<mi,"Mafic igneous rocks, central and northeast Alaska",Early Paleozoic and (or) late Proterozoic,"CN, NE",108,,INTRUSIVE ROCKS
+150,Kcca,Coquina and calcarenite,Lower Cretaceous,SW;SE;AP;EC;NR;SC,32-33,Kqcs—Quartz-carbonate sandstone and pebbly mudstone; Kcm—Calcareous mudstone; Khnl—Herendeen Formation and similar units,SEDIMENTARY ROCKS
+151,Kqcs,Quartz-carbonate sandstone and pebbly mudstone,"Lower Cretaceous, Aptian to Valanginian",SW,32,,SEDIMENTARY ROCKS
+152,Kcm,Calcareous mudstone,Lower Cretaceous,SE,33,,SEDIMENTARY ROCKS
+153,Khnl,Herendeen Formation and similar units,Lower Cretaceous,"AP, EC, NR, SC, SW",33,,SEDIMENTARY ROCKS
+154,Kcgc,Calcareous graywacke and conglomerate,"Lower Cretaceous, Albian to Aptian","SW, WC",26,,SEDIMENTARY ROCKS
+155,Kchf,Chugach accretionary complex,Cretaceous,SC;SE;SW,17-18;21,"Kaf—Chugach flysch; Kafv—Volcanic rocks of Chugach accretionary complex; Ksg—Sitka Graywacke, undivided",SEDIMENTARY ROCKS
+156,Kaf,Chugach flysch,Upper Cretaceous,"SC, SE, SW",17,,SEDIMENTARY ROCKS
+157,Kafv,Volcanic rocks of Chugach accretionary complex,Upper Cretaceous,"SC, SE",18,,SEDIMENTARY ROCKS
+158,Ksg,"Sitka Graywacke, undivided",Cretaceous,SE,21,,SEDIMENTARY ROCKS
+159,Kcvg,"Calcareous graywacke and mudstone, volcanic graywacke and conglomerate",Lower Upper or upper Lower Cretaceous,WC,23,,SEDIMENTARY ROCKS
+160,KDt,"Togiak-Tikchik Complex, undivided",Mesozoic to Devonian,SW,133,,TECTONIC ASSEMBLAGES AND MÉLANGE
+161,Keg,Granodiorite and other plutonic rocks,"Early Cretaceous, Aptian to Hauterivian","SC, SE, WC",98,,INTRUSIVE ROCKS
+162,Kfy,Flysch,Upper and Lower? Cretaceous,SC,23,,SEDIMENTARY ROCKS
+163,Khs,Rocks of Hammond River shear zone of Till and others (2008a),Cretaceous,SP,110,,METAMORPHIC ROCKS
+164,Kipc,"Mafic igneous-clast conglomerate, sandstone, and mudstone",Lower Cretaceous,WC,26,,SEDIMENTARY ROCKS
+165,KJab,Andesite and basalt,Early Cretaceous and Jurassic,NW;SW;WC,83-84,KJiv—Andesitic volcanic rocks; Jab—Andesite and basalt,VOLCANIC ROCKS
+166,Kjiv,Andesitic volcanic rocks,Early Cretaceous and Late Jurassic?,"NW, SW, WC",83,,VOLCANIC ROCKS
+167,Jab,Andesite and basalt,Jurassic,SW,84,,VOLCANIC ROCKS
+168,KJgn,Gravina-Nuzotin unit,Lower Cretaceous and Upper Jurassic,"SC, SE, SW",28,KJgv—Volcanic rocks of the Gravina-Nutzotin belt,SEDIMENTARY ROCKS
+169,KJgv,Volcanic rocks of the Gravina-Nutzotin belt,Lower Cretaceous or Upper Jurassic?,"SC, SE",28,,SEDIMENTARY ROCKS
+170,KJgu,Plutonic rocks and dikes,Cretaceous to Jurassic,EC;SC;SP;SW;WC,96;99,"Kgu—Plutonic rocks and dikes, granite to diorite; KJg—Quartz monzodiorite",INTRUSIVE ROCKS
+171,Kgu,"Plutonic rocks and dikes, granite to diorite",Cretaceous?,"EC, SC, SP, SW, WC",96,,INTRUSIVE ROCKS
+172,KJg,Quartz monzodiorite,Cretaceous to Jurassic,"SC, SW",99,,INTRUSIVE ROCKS
+173,KJs,Fine-grained sedimentary and metasedimentary rocks,Cretaceous or Jurassic,EC,22,,SEDIMENTARY ROCKS
+174,KJse,Saint Elias suite of Gordey and Makepeace (2003) and similar rocks,Early Cretaceous and Late Jurassic,"SC, SE",99,,INTRUSIVE ROCKS
+175,KJsnk,"Staniukovich and Naknek Formations, Kotsina Conglomerate, and similar rocks of southern Alaska","Lower Cretaceous to Jurassic, Pliensbachian",AP;SC;EC,35,"Kst—Staniukovich Formation; Jnk—Naknek Formation and Kotsina Conglomerate; Js—Marine sedimentary rocks of the Wrangell Mountains, undivided",SEDIMENTARY ROCKS
+176,Kst,Staniukovich Formation,Lower Cretaceous,AP,35,,SEDIMENTARY ROCKS
+177,Jnk,Naknek Formation and Kotsina Conglomerate,"Upper Jurassic, Tithonian to Oxfordian","AP, SC",35,,SEDIMENTARY ROCKS
+178,Js,"Marine sedimentary rocks of the Wrangell Mountains, undivided","Jurassic, Kimmeridgian to Pliensbachian",EC,35,,SEDIMENTARY ROCKS
+179,KJvp,Volcano-plutonic complexes,Cretaceous and Jurassic,SW;WC,83,Kmvi—Mafic to intermediate volcano-plutonic complexes; KJv—Highly altered volcanic rocks in southwest Alaska,VOLCANIC ROCKS
+180,Kmvi,Mafic to intermediate volcano-plutonic complexes,Late Cretaceous,"SW, WC",83,,VOLCANIC ROCKS
+181,KJv,Highly altered volcanic rocks in southwest Alaska,Cretaceous or Jurassic,SW,83,,VOLCANIC ROCKS
+182,KJyg,"Yakutat Group, undivided",Lower Cretaceous and Upper Jurassic?,"SC, SE",22,,SEDIMENTARY ROCKS
+183,KJyh,Graywacke of the Yenlo Hills,Cretaceous? and uppermost Jurassic,SC,22,,SEDIMENTARY ROCKS
+184,Kk,"Kuskokwim Group, undivided",Upper Cretaceous to upper Lower Cretaceous,SW,20,,SEDIMENTARY ROCKS
+185,Kke,Kemik Sandstone,"Lower Cretaceous, Hauterivian",NR,27,,SEDIMENTARY ROCKS
+186,Kkg,"Flysch and quartzite, Kandik Group and equivalents","Lower Cretaceous, Albian to Valanginian",EC,27,,SEDIMENTARY ROCKS
+187,Klgr,Intermediate granitic rocks,Late Cretaceous,"SC, SP, SW, WC",96,Klqm—Quartz monzonite and monzonite,INTRUSIVE ROCKS
+188,Klqm,Quartz monzonite and monzonite,Late Cretaceous,"SC, SW",96,,INTRUSIVE ROCKS
+189,Kmgr,Granitic rocks of central and southeast Alaska,"Cretaceous, Coniacian to Albian","EC, SC, SE, WC",97,"Kmqm—Quartz monzonite, monzonite, and syenite; Ksy—Syenitic rocks",INTRUSIVE ROCKS
+190,Kmqm,"Quartz monzonite, monzonite, and syenite","Cretaceous, Coniacian to Albian","CN, EC,
+SE, SP, WC",97,,INTRUSIVE ROCKS
+191,Ksy,Syenitic rocks,"Cretaceous, Coniacian to Albian","NW, WC",97,,INTRUSIVE ROCKS
+192,Kmig,Migmatite and metaplutonic rocks,Cretaceous,"EC, NE, SC, SE",110,,METAMORPHIC ROCKS
+193,KMm,West-central Alaska mélange (Angayucham),Cretaceous or older,NR;WC,30,KJm—Mélange facies; KMmu—West-central Alaska mélange-like rocks,SEDIMENTARY ROCKS
+194,KJm,Mélange facies,Cretaceous or Jurassic?,"NR, WC",30,,SEDIMENTARY ROCKS
+195,Kmmu,West-central Alaska mélange-like rocks,Cretaceous or older,WC,30,,SEDIMENTARY ROCKS
+196,Kms,Mafic and shoshonitic volcanic rocks,Early Cretaceous,NW;WC,83-84,Ksbd—Spilitic pillow basalt and diabase; Ksv—Shoshonitic flows and tuff,VOLCANIC ROCKS
+197,Ksbd,Spilitic pillow basalt and diabase,Early Cretaceous?,NW,83,,VOLCANIC ROCKS
+198,Ksv,Shoshonitic flows and tuff,Early Cretaceous,WC,84,,VOLCANIC ROCKS
+199,Kmss,Marine sandstone and siltstone,"Cretaceous, Cenomanian to Albian","SC, WC",24,,SEDIMENTARY ROCKS
+200,Kmuc,McHugh and Uyak Complexes and similar rocks,Late Cretaceous,AP;SC;SW,136;19,Kumc—McHugh and Uyak Complexes; Kcct—Cape Current terrane,TECTONIC ASSEMBLAGES AND MÉLANGE; SEDIMENTARY ROCKS
+201,Kumc,McHugh and Uyak Complexes,Late Cretaceous,"AP, SC",136,,TECTONIC ASSEMBLAGES AND MÉLANGE
+202,Kcct,Cape Current terrane,Upper Cretaceous,SW,19,,SEDIMENTARY ROCKS
+203,Knmt,Nonmarine to shelf sedimentary rocks,Tertiary? and Cretaceous,AP;SW;EC;SC;SW;WC;SP;NW;NR,16-17;19-22,"Kcs—Chignik Formation and similar units in southern Alaska; Khk—Hoodoo and Kaguyak Formations; Kmf—Minto unit; Ksd—Sandstone, shale, and conglomerate deltaic deposits; TKis—Intricately intruded areas of volcanic graywacke and mudstone; Kcc—Carbonate-rich conglomerate and sandstone deltaic rocks; Kqc—Quartz-pebble conglomerate, west-central Alaska; Ktu—Tuluvak Formation",SEDIMENTARY ROCKS
+204,Kcs,Chignik Formation and similar units in southern Alaska,Upper Cretaceous,"AP, SW",16,,SEDIMENTARY ROCKS
+205,Khk,Hoodoo and Kaguyak Formations,Upper Cretaceous,AP,17,,SEDIMENTARY ROCKS
+206,Kmf,Minto unit,Upper Cretaceous?,EC,19,,SEDIMENTARY ROCKS
+207,Ksd,"Sandstone, shale, and conglomerate deltaic deposits",Upper and upper Lower Cretaceous,"EC, SC, SW, WC",19,,SEDIMENTARY ROCKS
+208,Tkis,Intricately intruded areas of volcanic graywacke and mudstone,Tertiary or Upper Cretaceous,WC,20,,SEDIMENTARY ROCKS
+209,Kcc,Carbonate-rich conglomerate and sandstone deltaic rocks,Cretaceous,"SP, NW",21,,SEDIMENTARY ROCKS
+210,Kqc,"Quartz-pebble conglomerate, west-central Alaska",Lower Upper Cretaceous to upper Lower Cretaceous,WC,22,,SEDIMENTARY ROCKS
+211,Ktu,Tuluvak Formation,"Upper Cretaceous, Coniacian to upper Turonian",NR,22,,SEDIMENTARY ROCKS
+212,Kns,Sedimentary rocks of the North Slope,"Cretaceous, Cenomanian to Albian",NR,24-25,Knf—Nanushuk Formation; Kto—Torok Formation; Kfm—Fortress Mountain Formation,SEDIMENTARY ROCKS
+213,Knf,Nanushuk Formation,"Cretaceous, Cenomanian to Albian",NR,24,,SEDIMENTARY ROCKS
+214,Kto,Torok Formation,"Cretaceous, Cenomanian to Aptian",NR,24,,SEDIMENTARY ROCKS
+215,Kfm,Fortress Mountain Formation,"Cretaceous, Albian",NR,25,,SEDIMENTARY ROCKS
+216,Kok,Okpikruak and Kongakut Formations,Lower Cretaceous,NR,25-26,Kof—Okpikruak Formation and similar units; Kgk—Kongakut Formation,SEDIMENTARY ROCKS
+217,Kof,Okpikruak Formation and similar units,Lower Cretaceous,NR,25,,SEDIMENTARY ROCKS
+218,Kgk,Kongakut Formation,"Lower Cretaceous, Hauterivian and younger",NR,26,,SEDIMENTARY ROCKS
+219,Kpf,Pedmar Formation,"Lower Cretaceous, Albian",AP,26,,SEDIMENTARY ROCKS
+220,Kps,Pelitic schist,Late Cretaceous,SC,111,,METAMORPHIC ROCKS
+221,KPss,"Kingak Shale, Shublik Formation, and Karen Creek Sandstone, undivided",Lower Cretaceous to Permian,NE;NR;NW,33-34,"KPu—Kingak Shale, Shublik Formation, and Karen Creek Sandstone, undivided; KJks—Kingak Shale and similar units; Kit—Tingmerkpuk Member of the Ipewik Formation; ^kc—Karen Creek Sandstone",SEDIMENTARY ROCKS
+222,Kpu,"Kingak Shale, Shublik Formation, and Karen Creek Sandstone, undivided",Lower Cretaceous to Permian,NE,33,,SEDIMENTARY ROCKS
+223,KJks,Kingak Shale and similar units,Lower Cretaceous to Lower Jurassic,NR,34,,SEDIMENTARY ROCKS
+224,Kit,Tingmerkpuk Member of the Ipewik Formation,"Lower Cretaceous, Valanginian",NW,34,,SEDIMENTARY ROCKS
+225,^kc,Karen Creek Sandstone,Upper Triassic,NR,34,,SEDIMENTARY ROCKS
+226,K|um,Mafic and ultramafic rocks in southern Alaska,Cretaceous to late Paleozoic,SE;SC;SW;EC;SW,98-100;103;106,"Kgb—Gabbro and diorite of southeast Alaska; KJmu—Mafic and ultramafic rocks; K|um—Dunite and serpentinite, undivided; Kum—Ultramafic rocks of southeast Alaska; KJdg—Diorite and gabbro of southeast Alaska; Jum—Gabbronorite and other mafic and ultramafic rocks of Hidden terrane; ^gb—Gabbro and quartz gabbro; ^um—Mafic and ultramafic rocks in the vicinity of the Denali Fault System; ^dg—Mafic igneous rocks of Duke Island; |gb—Gabbro and orthogneiss",INTRUSIVE ROCKS
+227,Kgb,Gabbro and diorite of southeast Alaska,Cretaceous,SE,98,,INTRUSIVE ROCKS
+228,Kjmu,Mafic and ultramafic rocks,Cretaceous to Jurassic or older,"SC, SE, SW",98,,INTRUSIVE ROCKS
+229,K|um,"Dunite and serpentinite, undivided",Cretaceous? to Paleozoic,"EC, SC, SE",99,,INTRUSIVE ROCKS
+230,Kum,Ultramafic rocks of southeast Alaska,Early Cretaceous,SE,99,,INTRUSIVE ROCKS
+231,KJdg,Diorite and gabbro of southeast Alaska,Cretaceous? and Jurassic,SE,100,,INTRUSIVE ROCKS
+232,Jum,Gabbronorite and other mafic and ultramafic rocks of Hidden terrane,Early Jurassic,"SC, SW",103,,INTRUSIVE ROCKS
+233,^gb,Gabbro and quartz gabbro,Late Triassic?,SC,106,,INTRUSIVE ROCKS
+234,^um,Mafic and ultramafic rocks in the vicinity of the Denali Fault System,Triassic?,SE,106,,INTRUSIVE ROCKS
+235,^dg,Mafic igneous rocks of Duke Island,Middle Triassic,SE,106,,INTRUSIVE ROCKS
+236,|gb,Gabbro and orthogneiss,Late Paleozoic,SC,106,,INTRUSIVE ROCKS
+237,Ksb,Schrader Bluff Formation,"Upper Cretaceous, Maastrichtian to Santonian",NR,19,,SEDIMENTARY ROCKS
+238,Ksbf,Seabee Formation and Hue Shale,"Upper Cretaceous, Coniacian to Turonian",NR,23,,SEDIMENTARY ROCKS
+239,Ksfg,Foliated granitic rocks of southeast Alaska,Middle Cretaceous?,SE,97,,INTRUSIVE ROCKS
+240,Ksmd,Shallow to moderate depth sedimentary rocks,Upper Cretaceous to upper Lower Cretaceous,SW;SC,20-21,Kkn—Nearshore facies (Kuskokwim Group); Km—Matanuska Formation and correlative rocks,SEDIMENTARY ROCKS
+241,Kkn,Nearshore facies (Kuskokwim Group),"Upper Cretaceous, Santonian to Cenomanian",SW,20,,SEDIMENTARY ROCKS
+242,Km,Matanuska Formation and correlative rocks,Upper Cretaceous to upper Lower Cretaceous,SC,21,,SEDIMENTARY ROCKS
+243,K^m,"Kelp Bay Group, undivided",Cretaceous to Triassic,SE,137,Kkbm—Khaz Complex; J^pp—Pinnacle Peak Phyllite,TECTONIC ASSEMBLAGES AND MÉLANGE
+244,Kkbm,Khaz Complex,Cretaceous and older,SE,137,,TECTONIC ASSEMBLAGES AND MÉLANGE
+245,J^pp,Pinnacle Peak Phyllite,Jurassic or Triassic?,SE,137,,TECTONIC ASSEMBLAGES AND MÉLANGE
+246,K^vs,Volcanic and sedimentary rocks of southwest Alaska,Cretaceous to Triassic?,SW,28,"K^s—Restricted Gemuk Group; Jvs—Marine volcaniclastic and arkosic sandstone; Jvc—Volcaniclastic and volcanic rocks; J^vs—Coarse volcaniclastic sedimentary rocks; Jms—Micaceous graywacke; J^p—Phyllite and chert; J^ls—Limestone, shale, and chert",SEDIMENTARY ROCKS
+247,K^s,Restricted Gemuk Group,Lower Cretaceous to Triassic?,SW,29,,SEDIMENTARY ROCKS
+248,Jvs,Marine volcaniclastic and arkosic sandstone,Jurassic,SW,29,,SEDIMENTARY ROCKS
+249,Jvc,Volcaniclastic and volcanic rocks,Upper and Middle Jurassic,SW,35,,SEDIMENTARY ROCKS
+250,J^vs,Coarse volcaniclastic sedimentary rocks,Jurassic and (or) Triassic,SW,29,,SEDIMENTARY ROCKS
+251,Jms,Micaceous graywacke,Lower Jurassic,SW,41,,SEDIMENTARY ROCKS
+252,J^p,Phyllite and chert,Lower Jurassic to Upper Triassic,SW,41,,SEDIMENTARY ROCKS
+253,J^ls,"Limestone, shale, and chert","Lower Jurassic and Upper Triassic, Norian",SW,41,,SEDIMENTARY ROCKS
+254,Kvgc,Volcanic graywacke and conglomerate,"Lower Cretaceous, Hauterivian and older",SW,34,,SEDIMENTARY ROCKS
+255,Kvu,"Volcanic rocks, undivided",Cretaceous,"EC, NW,
+SC, SE, SW",82,,VOLCANIC ROCKS
+256,Kyg,Volcanic graywacke and mudstone,Lower Cretaceous,WC,26,,SEDIMENTARY ROCKS
+257,MDe,"Endicott Group, undivided",Mississippian to Devonian,NR,53,Mek—Kekiktuk Conglomerate; Meks—Kapaloak sequence of Moore and others (2002); Mes—Kurupa Sandstone; Du—Mangaqtaaq formation of Anderson and Watts (1992) and Ulungarat formation of Anderson (1993),SEDIMENTARY ROCKS
+258,Mek,Kekiktuk Conglomerate,Mississippian,"NE, NR",53,,SEDIMENTARY ROCKS
+259,Meks,Kapaloak sequence of Moore and others (2002),Mississippian,NW,54,,SEDIMENTARY ROCKS
+260,Mes,Kurupa Sandstone,Lower Mississippian,NR,54,,SEDIMENTARY ROCKS
+261,Du,Mangaqtaaq formation of Anderson and Watts (1992) and Ulungarat formation of Anderson (1993),Upper Devonian,NE,55,,SEDIMENTARY ROCKS
+262,MDegk,"Kanayut Conglomerate and Noatak Sandstone, undivided (Endicott Group)",Lower Mississippian and Upper Devonian,NR,54,,SEDIMENTARY ROCKS
+263,MDip,Iyoukeen and Peratrovich Formations,Mississippian and Devonian,SE,52,,SEDIMENTARY ROCKS
+264,MDmg,Granitic rocks and orthogneiss,Mississippian to Devonian,NE;EC;WC;CN;NR;SP,107;121-123,MDgi—Old Crow suite of Gordey and Makepeace (2003) and other granitic rocks of northeast Alaska; MDag—Augen gneiss and orthogneiss; Dmi—Metamorphosed mafic igneous rocks; Dogn—Granitic gneiss,S; METAMORPHIC ROCKS
+265,Mdgi,Old Crow suite of Gordey and Makepeace (2003) and other granitic rocks of northeast Alaska,Mississippian to Devonian?,NE,107,,INTRUSIVE ROCKS
+266,Mdag,Augen gneiss and orthogneiss,Early Mississippian and Late Devonian,"EC, WC",121,,METAMORPHIC ROCKS
+267,Dmi,Metamorphosed mafic igneous rocks,Late Devonian,CN,122,,METAMORPHIC ROCKS
+268,Dogn,Granitic gneiss,Late and Middle Devonian,"NR, SP",123,,METAMORPHIC ROCKS
+269,MDts,Totatlanika Schist (Yukon-Tanana crystalline complex),Early Mississippian to Late Devonian,"EC, SC",116,,METAMORPHIC ROCKS
+270,MDv,Greenstone and schist (Togiak-Tikchik Complex),Mississippian? and Devonian?,SW,135,,TECTONIC ASSEMBLAGES AND MÉLANGE
+271,Mgq,Globe quartzite of Weber and others (1992),Mississippian,CN,52,,SEDIMENTARY ROCKS
+272,Mk,Kayak Shale (Endicott Group),Mississippian,NR,53,,SEDIMENTARY ROCKS
+273,Mlgac,Akmalik Chert and other black chert of the Lisburne Group,Mississippian,"NE, NW",51,,SEDIMENTARY ROCKS
+274,Mlgk,Kuna Formation (Lisburne Group),Mississippian,NW,50,,SEDIMENTARY ROCKS
+275,Mlgnu,Nasorak and Utukok Formations (Lisburne Group),Mississippian,NW,51,,SEDIMENTARY ROCKS
+276,MOkg,Kaskawulsh group of Kindle (1953),Mississippian and older,SC,121,,METAMORPHIC ROCKS
+277,M<gs,"Gneiss, schist, and amphibolite (Yukon-Tanana crystalline complex)","Mississippian, Devonian, and older",EC,116,"|ymi—Orthogneiss and amphibolite of igneous origin; |<ygs—Gneiss, schist, and quartzite",METAMORPHIC ROCKS
+278,|ymi,Orthogneiss and amphibolite of igneous origin,"Mississippian, Devonian, and older?",EC,116,,METAMORPHIC ROCKS
+279,|<ygs,"Gneiss, schist, and quartzite","Mississippian, Devonian, and older",EC,116,,METAMORPHIC ROCKS
+280,}m,Mélanges,Mesozoic to Paleozoic,SC;SE;SW,132-133,KJmy—Mélange of the Yakutat Group; Kmar—Alaska Range mélange; }|m—Southwest Alaska mélange,TECTONIC ASSEMBLAGES AND MÉLANGE
+281,Kjmy,Mélange of the Yakutat Group,Cretaceous and Jurassic?,"SC, SE",132,,TECTONIC ASSEMBLAGES AND MÉLANGE
+282,Kmar,Alaska Range mélange,Cretaceous,SC,132,,TECTONIC ASSEMBLAGES AND MÉLANGE
+283,}|m,Southwest Alaska mélange,Mesozoic and Paleozoic,SW,133,,TECTONIC ASSEMBLAGES AND MÉLANGE
+284,}|a,"Metamorphic rocks of Admiralty Island, undivided",Mesozoic to Paleozoic,SE,111,,METAMORPHIC ROCKS
+285,}|cp,Metamorphic rocks associated with the Coast plutonic complex of Brew and Morrell (1979b),Triassic to Paleozoic,SE,112-113;120;124,"}|ss—Metasedimentary and minor metavolcanic rocks along the west side of the Coast plutonic complex of Brew and Morrell (1979b); Pm—Marble along the west side of the Coast plutonic com- plex of Brew and Morrell (1979b); }|sv—Metavolcanic rocks west of the Coast plutonic com- plex of Brew and Morrell (1979b); |gn—Roof pendants of the Coast plutonic complex of Brew and Morrell (1979b); |ks—Metamorphic rocks of the Kah Shakes sequence of Rubin and Saleeby (1991), undivided",METAMORPHIC ROCKS
+286,}|ss,Metasedimentary and minor metavolcanic rocks along the west side of the Coast plutonic complex of Brew and Morrell (1979b),Triassic to Paleozoic,SE,112,,METAMORPHIC ROCKS
+287,Pm,Marble along the west side of the Coast plutonic com- plex of Brew and Morrell (1979b),Permian? protolith,SE,113,,METAMORPHIC ROCKS
+288,}|sv,Metavolcanic rocks west of the Coast plutonic com- plex of Brew and Morrell (1979b),Triassic to Paleozoic,SE,113,,METAMORPHIC ROCKS
+289,|gn,Roof pendants of the Coast plutonic complex of Brew and Morrell (1979b),Paleozoic,SE,120,,METAMORPHIC ROCKS
+290,|ks,"Metamorphic rocks of the Kah Shakes sequence of Rubin and Saleeby (1991), undivided",Early Paleozoic,SE,124,,METAMORPHIC ROCKS
+291,}|ka,Rocks of the Kisaralik anticlinorium of Box and others (1993) (Togiak-Tikchik Complex),"Jurassic metamorphism, early Mesozoic or Paleozoic protolith",SW,135,}|gs—Green amphibole-bearing schist; }|p—Phyllite of the Kisaralik anticlinorium; }|sk—Metasedimentary rocks of the Kisaralik anticlinorium; MDm—Metabasalt and marble of the Kisaralik anticlinorium,TECTONIC ASSEMBLAGES AND MÉLANGE
+292,}|gs,Green amphibole-bearing schist,Jurassic metamorphism,SW,135,,TECTONIC ASSEMBLAGES AND MÉLANGE
+293,}|p,Phyllite of the Kisaralik anticlinorium,Early Mesozoic or Paleozoic,SW,136,,TECTONIC ASSEMBLAGES AND MÉLANGE
+294,}|sk,Metasedimentary rocks of the Kisaralik anticlinorium,Early Mesozoic or Paleozoic,SW,136,,TECTONIC ASSEMBLAGES AND MÉLANGE
+295,MDm,Metabasalt and marble of the Kisaralik anticlinorium,Early Mississippian to Late Devonian,SW,136,,TECTONIC ASSEMBLAGES AND MÉLANGE
+296,}|mb,Metabasite,Mesozoic and Paleozoic,"NR, SP, WC",111,,METAMORPHIC ROCKS
+297,Oc,Chert of interior Alaska,Ordovician,CN,71,,SEDIMENTARY ROCKS
+298,O_jr,Jones Ridge Limestone and related units,Ordovician to Cambrian,"EC, NE",72,,SEDIMENTARY ROCKS
+299,O_v,Fossil Creek Volcanics and similar rocks,Ordovician and Cambrian,"EC, NE, NR",88,,VOLCANIC ROCKS
+300,O<pt,Older rocks of York terrane and Grantley Harbor Fault Zone,Middle Ordovician to Proterozoic,SP,68,,SEDIMENTARY ROCKS
+301,Pcs,Clastic and volcaniclastic rocks (Togiak-Tikchik Complex),Permian,SW,134,,TECTONIC ASSEMBLAGES AND MÉLANGE
+302,PDcf,"Cannery Formation and Porcupine slate of Redman and others (1985), undivided",Permian to Devonian,SE,48;120,"PDcf—Cannery Formation and Porcupine slate of Redman and others (1985), undivided; |ps—Porcupine slate of Redman and others (1985)",SEDIMENTARY ROCKS; METAMORPHIC ROCKS
+303,PDcf,"Cannery Formation and Porcupine slate of Redman and others (1985), undivided",Permian to Devonian,SE,48,,SEDIMENTARY ROCKS
+304,|ps,Porcupine slate of Redman and others (1985),Late Paleozoic,SE,120,,METAMORPHIC ROCKS
+305,PDms,Sedimentary rocks of the Mystic structural complex,Permian to Devonian,SC;SW;WC,38,PDsc—Sheep Creek formation of Bundtzen and others (1997a) and correlative siliciclastic units of the Mystic structural complex; Dls—Limestone of the Mystic structural complex,SEDIMENTARY ROCKS
+306,PDsc,Sheep Creek formation of Bundtzen and others (1997a) and correlative siliciclastic units of the Mystic structural complex,Permian to Devonian,"SC, SW, WC",38,,SEDIMENTARY ROCKS
+307,Dls,Limestone of the Mystic structural complex,Devonian,"SW, WC",38,,SEDIMENTARY ROCKS
+308,Plss,Limestone and calcareous clastic rocks,Permian,AP;SE;EC;NE;SW,47-48;135,Pls—Limestone; Plps—Pybus Formation and correlative? limestone; Ph—Halleck Formation and similar sedimentary rock units; Ptl—Tahkandit Limestone; Ptls—Limestone of southwest Alaska (Togiak-Tikchik Complex),SEDIMENTARY ROCKS; TECTONIC ASSEMBLAGES AND MÉLANGE
+309,Pls,Limestone,Permian,AP,47,,SEDIMENTARY ROCKS
+310,Plps,Pybus Formation and correlative? limestone,Permian,SE,47,,SEDIMENTARY ROCKS
+311,Ph,Halleck Formation and similar sedimentary rock units,Permian,SE,47,,SEDIMENTARY ROCKS
+312,Ptl,Tahkandit Limestone,Lower Permian,"EC, NE",48,,SEDIMENTARY ROCKS
+313,Ptls,Limestone of southwest Alaska (Togiak-Tikchik Complex),Permian,SW,135,,TECTONIC ASSEMBLAGES AND MÉLANGE
+314,P*gi,"Granodiorite, syenite, and other granitic rocks",Early Permian and Pennsylvanian,"SC, SE",107,,INTRUSIVE ROCKS
+315,P*sm,Strelna Metamorphics and related rocks,Early Permian to Middle Pennsylvanian,SC,119,,METAMORPHIC ROCKS
+316,Pstc,Step Conglomerate,Lower Permian,EC,48,,SEDIMENTARY ROCKS
+317,Pv,Andesite and basalt of southern Alaska,Early Permian,AP;SE,86,Pv—Volcanic rocks of Puale Bay; Phb—Volcanic rocks of the Halleck Formation and related rocks of southeast Alaska,VOLCANIC ROCKS
+318,Pv,Volcanic rocks of Puale Bay,Early Permian,AP,86,,VOLCANIC ROCKS
+319,Phb,Volcanic rocks of the Halleck Formation and related rocks of southeast Alaska,Early Permian,SE,86,,VOLCANIC ROCKS
+320,*Dcf,"Calico Bluff and Ford Lake Shale, undivided",Lower Pennsylvanian to Devonian,EC,52,,SEDIMENTARY ROCKS
+321,*Mn,Nuka Formation,Carboniferous,NW,49,,SEDIMENTARY ROCKS
+322,*sb,Upper Saginaw Bay Formation and similar rocks of southeast Alaska,Pennsylvanian,SE,49,,SEDIMENTARY ROCKS
+323,|c,Marble,Early Permian to early Paleozoic,SE;NW;NR,120-121;124,"|ce—Marble, southeast Alaska; |cn—Marble, northern Alaska; |m—Marble of the Brooks Range",METAMORPHIC ROCKS
+324,|ce,"Marble, southeast Alaska",Early Permian to Devonian,SE,120,,METAMORPHIC ROCKS
+325,|cn,"Marble, northern Alaska",Early Paleozoic,NW,121,,METAMORPHIC ROCKS
+326,|m,Marble of the Brooks Range,Devonian and older,NR,124,,METAMORPHIC ROCKS
+327,|cu,Black chert,"Lower Paleozoic, Devonian or older",SW,55,,SEDIMENTARY ROCKS
+328,|e,Eclogite and associated rocks (Yukon-Tanana crystalline complex),Paleozoic,CN,115,,METAMORPHIC ROCKS
+329,|kn,"Klondike Schist, Keevy Peak Formation, and similar rocks (Yukon-Tanana crystalline complex)",Permian to early Paleozoic,EC;CN,115;117,Pks—Klondike Schist; |kp—Keevy Peak Formation and similar rocks,METAMORPHIC ROCKS
+330,Pks,Klondike Schist,Permian,EC,115,,METAMORPHIC ROCKS
+331,|kp,Keevy Peak Formation and similar rocks,Early Paleozoic,"CN, EC",117,,METAMORPHIC ROCKS
+332,|ls,Limestone and marble,Paleozoic,"EC, NR, WC",47,,SEDIMENTARY ROCKS
+333,|np,Metagabbro and metasedimentary rocks (Nome Complex),Paleozoic?,SP,140,,TECTONIC ASSEMBLAGES AND MÉLANGE
+334,|<gb,Gabbro and metagabbro,Early Paleozoic and Proterozoic?,SP,129,,METAMORPHIC ROCKS
+335,|<kg,High-grade metamorphic rocks of the Seward Peninsula,Earliest Paleozoic to Proterozoic,SP,129,,METAMORPHIC ROCKS
+336,|<nc,"Nome Complex, undivided",Early Paleozoic to Proterozoic,SP,139,,TECTONIC ASSEMBLAGES AND MÉLANGE
+337,|<rqm,Pelitic and quartzitic schist of the Ruby terrane,Early Paleozoic to Proterozoic?,"NR, WC",127,,METAMORPHIC ROCKS
+338,|Zncl,Layered sequence (Nome Complex),Devonian to Neoproterozoic,SP,140-142,"|ncs—Younger schist; DOnx—Marble, graphitic rocks, and schist; Ocs—Casadepaga Schist; Onim—Impure marble; Zngn—Metagranitic rocks",TECTONIC ASSEMBLAGES AND MÉLANGE
+339,|ncs,Younger schist,Devonian and Silurian?,SP,140,,TECTONIC ASSEMBLAGES AND MÉLANGE
+340,Donx,"Marble, graphitic rocks, and schist",Devonian to Ordovician?,SP,140,,TECTONIC ASSEMBLAGES AND MÉLANGE
+341,Ocs,Casadepaga Schist,Ordovician,SP,141,,TECTONIC ASSEMBLAGES AND MÉLANGE
+342,Onim,Impure marble,Ordovician,SP,141,,TECTONIC ASSEMBLAGES AND MÉLANGE
+343,Zngn,Metagranitic rocks,Neoproterozoic,SP,142,,TECTONIC ASSEMBLAGES AND MÉLANGE
+344,<kd,Katakturuk Dolomite,Proterozoic,NE,74,,SEDIMENTARY ROCKS
+345,<qm,Basement of the White Mountain sequence,Proterozoic,WC,131,"<qm—Schist of the Telsitna River; <m—Marble, calcareous and quartz-mica schist, and green- stone",METAMORPHIC ROCKS
+346,<qm,Schist of the Telsitna River,Proterozoic,WC,131,,METAMORPHIC ROCKS
+347,<m,"Marble, calcareous and quartz-mica schist, and green- stone",Proterozoic?,WC,131,,METAMORPHIC ROCKS
+348,<v,Basalt and red beds member (Tindir Group) and Mount Copleston volcanic rocks of Moore (1987),Proterozoic,EC;NE,88-89,<tnm—Basalt and red beds member (Tindir Group); <v—Mount Copleston volcanic rocks of Moore (1987),VOLCANIC ROCKS
+349,<tnm,Basalt and red beds member (Tindir Group),Proterozoic,"EC, NE",88,,VOLCANIC ROCKS
+350,<v,Mount Copleston volcanic rocks of Moore (1987),Proterozoic,NE,89,,VOLCANIC ROCKS
+351,QTgm,Yakataga and Tugidak Formations,Quaternary and uppermost Tertiary,SO,5,,SEDIMENTARY ROCKS
+352,QTm,Contact metamorphosed and hydrothermally altered rocks,Quaternary or late Tertiary,"AL, AP",109,,METAMORPHIC ROCKS
+353,QTs,Unconsolidated and poorly consolidated surficial deposits,Quaternary and uppermost Tertiary,ST;AL;AP;SW;WC,5,"Qs—Unconsolidated surficial deposits, undivided; QTs—Poorly consolidated surficial deposits",SEDIMENTARY ROCKS
+354,Qs,"Unconsolidated surficial deposits, undivided",Quaternary,ST,5,,UNCONSOLIDATED DEPOSITS
+355,QTs,Poorly consolidated surficial deposits,"Quaternary, Pleistocene, and upper- most Tertiary","AL, AP, SW, WC",5,,UNCONSOLIDATED DEPOSITS
+356,QTvi,Young volcanic and shallow intrusive rocks,Quaternary or late Tertiary,AL;AP;SC;SE;EC;WC;SW,75;89,"Qv—Youngest volcanic rocks; QTv—Young volcanic rocks, undifferentiated; QTi—Young shallow intrusive rocks",VOLCANIC ROCKS
+357,Qv,Youngest volcanic rocks,Quaternary and latest Tertiary?,"AL, AP,
+EC, SC,
+SE, SW, WC",75,,VOLCANIC ROCKS
+358,QTv,"Young volcanic rocks, undifferentiated",Quaternary or Tertiary,"AL, AP,
+EC, SP, SW, WC",75,,VOLCANIC ROCKS
+359,Qti,Young shallow intrusive rocks,Quaternary or late Tertiary,"AL, AP, SC, SE",89,,INTRUSIVE ROCKS
+360,QTvs,Kiska Harbor and Milky River Formations,Quaternary? and late Tertiary,"AL, AP",76,,VOLCANIC ROCKS
+361,S_da,Older rock units of the Doonerak Window,Silurian to Cambrian,NR,69,S_s—Sedimentary rocks of Doonerak Window; O_dv—Oldest volcanic rocks,SEDIMENTARY ROCKS
+362,S_s,Sedimentary rocks of Doonerak Window,Silurian to Cambrian,NR,69,,SEDIMENTARY ROCKS
+363,O_dv,Oldest volcanic rocks,Ordovician and Cambrian?,NR,69,,SEDIMENTARY ROCKS
+364,S_wbc,Farewell basinal facies clastic rocks,Silurian to upper Cambrian,WC'SW,60,Stc—Terra Cotta Mountains Sandstone; S_pl—Post River Formation and correlative units,SEDIMENTARY ROCKS
+365,Stc,Terra Cotta Mountains Sandstone,Silurian,WC,60,,SEDIMENTARY ROCKS
+366,S_pl,Post River Formation and correlative units,"Middle Silurian, Wenlock, to upper Cambrian",SW,60,,SEDIMENTARY ROCKS
+367,SOig,Iviagik group of Martin (1970),"Silurian, Llandovery, to Ordovician",NW,70,,SEDIMENTARY ROCKS
+368,SOmi,"Heterogeneous metamorphic rocks, southeast Alaska",Silurian and Ordovician,SE,127,,METAMORPHIC ROCKS
+369,SOpw,Sedimentary and volcanic rocks of Prince of Wales Island,"Silurian, Llandovery, and Ordovician",SE,70-71,SOd—Descon Formation and other sedimentary and volcanic rocks of Prince of Wales Island; SOdc—Associated carbonate rocks; SOv—Associated volcanic rocks,SEDIMENTARY ROCKS
+370,Sod,Descon Formation and other sedimentary and volcanic rocks of Prince of Wales Island,"Silurian, Llandovery, and Ordovician",SE,70,,SEDIMENTARY ROCKS
+371,Sodc,Associated carbonate rocks,"Silurian, Llandovery, and Ordovician",SE,71,,SEDIMENTARY ROCKS
+372,Sov,Associated volcanic rocks,"Silurian, Llandovery, and Ordovician",SE,71,,SEDIMENTARY ROCKS
+373,SZfwr,"Four Winds complex of Gilbert and others (1987), Retreat Group, and orthogneiss",Silurian to Proterozoic,SE,127-128;130,SZfw—Four Winds complex of Gilbert and others (1987) and similar rocks; |<rg—Retreat Group; _Zogn—Orthogneiss,METAMORPHIC ROCKS
+374,SZfw,Four Winds complex of Gilbert and others (1987) and similar rocks,Silurian to Neoproterozoic,SE,127,,METAMORPHIC ROCKS
+375,|<rg,Retreat Group,Paleozoic and Proterozoic,SE,128,,METAMORPHIC ROCKS
+376,_Zogn,Orthogneiss,Cambrian to Neoproterozoic,SE,130,,METAMORPHIC ROCKS
+377,Tbk,Basalt and keratophyre,"Tertiary, Paleogene, or older",AL,79,,VOLCANIC ROCKS
+378,Tcb,Coal-bearing sedimentary rocks,"Tertiary, Pliocene to Eocene?","CN, SO",8,,SEDIMENTARY ROCKS
+379,Tcc,Gneiss and amphibolite,"Tertiary, Miocene","EC, SC",109,,METAMORPHIC ROCKS
+380,Tcl,Copper Lake Formation,"Tertiary, Eocene to Paleocene",AP,15,,SEDIMENTARY ROCKS
+381,Tcp,"Younger phase, Coast plutonic complex of Brew and Morrell (1979b)","Tertiary, Eocene",SE,91,,INTRUSIVE ROCKS
+382,Tcpp,Porphyritic granodiorite phase of Coast plutonic complex of Brew and Morrell (1979b),"Tertiary, Eocene",SE,92,,INTRUSIVE ROCKS
+383,Tehi,"Felsic dikes, sills, and small stocks in southern Alaska",Tertiary and older?,SC,93,"Tephi—Felsic hypabyssal intrusions; Tehi—Felsic dikes, sills, and small stocks in southern Alaska",INTRUSIVE ROCKS
+384,Tephi,Felsic hypabyssal intrusions,"Tertiary, Eocene",SC,93,,INTRUSIVE ROCKS
+385,Tehi,"Felsic dikes, sills, and small stocks in southern Alaska",Tertiary and older?,SC,93,,INTRUSIVE ROCKS
+386,Tgb,Gabbroic rocks in southern Alaska,Tertiary,SE;AL;AP;SC;SW,89-90,"Tgbe—Younger gabbro of southeast Alaska; Tgba—Diabase and gabbro, Aleutian Islands; Tgbw—Gabbro, southwest Alaska",INTRUSIVE ROCKS
+387,Tgbe,Younger gabbro of southeast Alaska,"Tertiary, Miocene to Eocene",SE,89,,INTRUSIVE ROCKS
+388,Tgba,"Diabase and gabbro, Aleutian Islands","Tertiary, Miocene to Paleocene?","AL, AP",90,,INTRUSIVE ROCKS
+389,Tgbw,"Gabbro, southwest Alaska","Tertiary, Paleogene?","SC, SW",90,,INTRUSIVE ROCKS
+390,Thi,Hypabyssal intrusions,Tertiary,"AL, AP, CN, SO",79,,VOLCANIC ROCKS
+391,Tk,Kootznahoo Formation,"Tertiary, lower Miocene to upper Eocene",SE,10,,SEDIMENTARY ROCKS
+392,TKcf,Canning Formation,"Lower Tertiary, Oligocene? to Cretaceous, Albian",NE,15,,SEDIMENTARY ROCKS
+393,TKgi,Granitic rocks of southern and interior Alaska,"Tertiary, Paleocene to Cretaceous, Maastrichtian",SC;SO;SW;EC,94-95,Tpgr—Undivided granitic rocks; Tpg—Peralkaline granite; TKg—Felsic granitic rocks; TKgd—Granodiorite to quartz monzodiorite,INTRUSIVE ROCKS
+394,Tpgr,Undivided granitic rocks,"Tertiary, late Paleocene","SC, SO, SW",94,,INTRUSIVE ROCKS
+395,Tpg,Peralkaline granite,"Tertiary, Paleocene?",SW,94,,INTRUSIVE ROCKS
+396,TKg,Felsic granitic rocks,"Tertiary, Paleocene, or Late Cretaceous, Maastrichtian","EC, SC, SO, SW",94,,INTRUSIVE ROCKS
+397,TKgd,Granodiorite to quartz monzodiorite,"Tertiary, Paleocene, or Late Cretaceous, Maastrichtian","EC, SC, SW",95,,INTRUSIVE ROCKS
+398,TKgr,Ghost Rocks Formation and similar rocks,"Tertiary, Paleocene, and Upper Cretaceous",AP;SW,132;16;19,TKm—Ghost Rocks Formation; TKgrs—Ghost Rocks sedimentary rocks; Kcv—Chert and volcanic sequence,TECTONIC ASSEMBLAGES AND MÉLANGE; SEDIMENTARY ROCKS
+399,TKm,Ghost Rocks Formation,Early Tertiary and latest Cretaceous,AP,132,,TECTONIC ASSEMBLAGES AND MÉLANGE
+400,TKgrs,Ghost Rocks sedimentary rocks,"Tertiary, Paleocene, and Upper Cretaceous",SW,16,,SEDIMENTARY ROCKS
+401,Kcv,Chert and volcanic sequence,Upper Cretaceous,AP,19,,SEDIMENTARY ROCKS
+402,TKkf,"Krugoli Formation, undifferentiated","Tertiary, Paleogene, or Cretaceous",AL,13,,SEDIMENTARY ROCKS
+403,TKm,Mafic intrusive rocks,Tertiary to Late Cretaceous or older,SC;WC;SW,95,TKgb—Gabbroic rocks; TKpd—Peridotite,INTRUSIVE ROCKS
+404,TKgb,Gabbroic rocks,Tertiary to Late Cretaceous or older,"SC, SW, WC",95,,INTRUSIVE ROCKS
+405,TKpd,Peridotite,"Tertiary, Paleocene, or older",SW,95,,INTRUSIVE ROCKS
+406,TKnt,Nearshore and nonmarine sedimentary rocks in southern Alaska,Tertiary,AP;SC;SO;SW,6;10-11,"Tkn—Kenai Group, undivided; Tts—Tsadaka Formation; Ttk—Nearshore and nonmarine sedimentary rocks",SEDIMENTARY ROCKS
+407,Tkn,"Kenai Group, undivided","Tertiary, Miocene to Oligocene","AP, SC",6,,SEDIMENTARY ROCKS
+408,Tts,Tsadaka Formation,"Tertiary, Oligocene",SC,10,,SEDIMENTARY ROCKS
+409,Ttk,Nearshore and nonmarine sedimentary rocks,"Tertiary, Eocene to Paleocene","AP, SC, SO, SW",11,,SEDIMENTARY ROCKS
+410,TKpc,Prince Creek Formation,"Lower Tertiary, Paleocene, to Upper Cretaceous, Campanian",NR,15,,SEDIMENTARY ROCKS
+411,TKpr,Flows and pyroclastic rocks,Early Tertiary to Late Cretaceous,NE;NW;SC;SW;WC;EC;SE;SW,80-82,TKv—Volcanic rocks in southern Alaska; Tpt—Pyroclastic rocks; TKwt—Welded tuff and other felsic volcanic rocks,VOLCANIC ROCKS
+412,TKv,Volcanic rocks in southern Alaska,Early Tertiary to Late Cretaceous,"NE, NW,
+SC, SW, WC",80,,VOLCANIC ROCKS
+413,Tpt,Pyroclastic rocks,"Tertiary, early Eocene or Paleocene","EC, SE, SW, WC",81,,VOLCANIC ROCKS
+414,TKwt,Welded tuff and other felsic volcanic rocks,Early Tertiary and early Late Cretaceous,EC,82,,VOLCANIC ROCKS
+415,TKs,"Conglomerate, sandstone, and lignite",Lower Tertiary to Upper Cretaceous,"CN, EC, SP",13,,SEDIMENTARY ROCKS
+416,TKtsp,"Foliated tonalite sill and pegmatite, Coast plutonic complex of Brew and Morrell (1979b)","Tertiary, Eocene? to latest Cretaceous",SE,92;94,TKts—Foliated tonalite sill of Coast plutonic complex of Brew and Morrell (1979b); TKpeg—Trondhjemitic pegmatite,INTRUSIVE ROCKS
+417,TKts,Foliated tonalite sill of Coast plutonic complex of Brew and Morrell (1979b),"Tertiary, Paleocene, and latest Cretaceous",SE,92,,INTRUSIVE ROCKS
+418,Tkpeg,Trondhjemitic pegmatite,"Tertiary, Eocene? or older",SE,94,,INTRUSIVE ROCKS
+419,Tmi,Younger granitic rocks,"Tertiary, Pliocene to Miocene","AL, AP, SE",89,,INTRUSIVE ROCKS
+420,T}mb,MacLaren metamorphic belt of Smith and Lanphere (1971),Tertiary to Jurassic or older?,SC,109;110,TKgg—Gneissose granitic rocks; }mu—Metamorphic rocks of the MacLaren metamorphic belt of Smith and Lanphere (1971),METAMORPHIC ROCKS
+421,TKgg,Gneissose granitic rocks,Tertiary or Late Cretaceous,SC,109,,METAMORPHIC ROCKS
+422,}mu,Metamorphic rocks of the MacLaren metamorphic belt of Smith and Lanphere (1971),Cretaceous and Jurassic or older?,SC,110,,METAMORPHIC ROCKS
+423,T}u,"Basement rocks, undifferentiated, Aleutian Islands",Tertiary or older,AL,14,,SEDIMENTARY ROCKS
+424,Tng,Nenana Gravel,"Tertiary, Pliocene and upper Miocene",SC,6,,SEDIMENTARY ROCKS
+425,Toeg,Granitic rocks in southern Alaska,"Tertiary, Oligocene and Eocene",AL;AP;SW;SC;SE,90-91,"Tgw—Granite, southwest Alaska and Aleutian Islands; Togr—Granite and granodiorite; Tod—Granodiorite, quartz diorite, and diorite; Toegr—Granitic rocks",INTRUSIVE ROCKS
+426,Tgw,"Granite, southwest Alaska and Aleutian Islands","Tertiary, Oligocene, or older","AL, AP, SW",90,,INTRUSIVE ROCKS
+427,Togr,Granite and granodiorite,"Tertiary, Oligocene","SC, SE, SW",90,,INTRUSIVE ROCKS
+428,Tod,"Granodiorite, quartz diorite, and diorite","Tertiary, Oligocene and late Eocene","AP, SC, SE",91,,INTRUSIVE ROCKS
+429,Toegr,Granitic rocks,"Tertiary, early Oligocene and Eocene","SC, SE, SW",91,,INTRUSIVE ROCKS
+430,Togum,Mafic and ultramafic rocks of the Valdez and Orca Groups,"Tertiary, Eocene to Paleocene",SC,92,,INTRUSIVE ROCKS
+431,Togv,Volcanic rocks of the Orca Group and Ghost Rocks Formation,"Tertiary, Eocene to Paleocene","AP, SC",80,,VOLCANIC ROCKS
+432,Top,Redwood and Poul Creek Formations,"Tertiary, Miocene to Eocene?",SC,7,,SEDIMENTARY ROCKS
+433,Tovs,"Sedimentary and volcanic rocks of the Orca Group, undivided","Tertiary, Eocene to Paleocene",SC,14,Tos—Sedimentary rocks of the Orca Group,SEDIMENTARY ROCKS
+434,Tos,Sedimentary rocks of the Orca Group,"Tertiary, Eocene to Paleocene",SC,14,,SEDIMENTARY ROCKS
+435,Tpgi,Granitic intrusive rocks of the Chugach accretionary complex,"Tertiary, Paleocene","SC, SW",93,,INTRUSIVE ROCKS
+436,T|i,Undivided dikes and sills,Tertiary to Paleozoic?,SW;WC;SC,95-96,"TKhi—Dikes and subvolcanic rocks; }|i—Undivided dikes and sills, south-central Alaska",INTRUSIVE ROCKS
+437,Tkhi,Dikes and subvolcanic rocks,Tertiary and (or) Cretaceous,"SW, WC",95,,INTRUSIVE ROCKS
+438,}|i,"Undivided dikes and sills, south-central Alaska",Mesozoic or Paleozoic,SC,96,,INTRUSIVE ROCKS
+439,Tsf,Sagavanirktok Formation,"Tertiary, Miocene to Paleocene",NR,7,,SEDIMENTARY ROCKS
+440,Tski,Sitkinak and Sitkalidak Formations,"Tertiary, Oligocene to Eocene",SW,12,Tsk—Sitkinak Formation; Tsi—Sitkalidak Formation,SEDIMENTARY ROCKS
+441,Tsk,Sitkinak Formation,"Tertiary, Oligocene",SW,12,,SEDIMENTARY ROCKS
+442,Tsi,Sitkalidak Formation,"Tertiary, Oligocene to Eocene",SW,12,,SEDIMENTARY ROCKS
+443,Tsmo,Sedimentary rocks of southwest Alaska,"Tertiary, Miocene and Oligocene",AL;AP;SC,8-10,"Tms—Tachilni, Bear Lake, Chuniksak,  Nevidiskov, and Chirikof Formations; Tnc—Narrow Cape and Topsy Formations; Tuu—Unga, Belkofski, and Unalaska Formations; Tsti—Siltstone of Trinity Islands",SEDIMENTARY ROCKS
+444,Tms,"Tachilni, Bear Lake, Chuniksak,  Nevidiskov, and Chirikof Formations","Tertiary, Miocene and upper Oligocene","AL, AP",8,,SEDIMENTARY ROCKS
+445,Tnc,Narrow Cape and Topsy Formations,"Tertiary, Miocene","AP, SC",9,,SEDIMENTARY ROCKS
+446,Tuu,"Unga, Belkofski, and Unalaska Formations","Tertiary, Miocene","AL, AP",9,,SEDIMENTARY ROCKS
+447,Tsti,Siltstone of Trinity Islands,"Tertiary, Miocene and Oligocene",AP,10,,SEDIMENTARY ROCKS
+448,Tsu,"Sedimentary rocks, undivided",Tertiary,ST,6,,SEDIMENTARY ROCKS
+449,Ttsr,Sedimentary rocks of eastern Prince William Sound,"Tertiary, Eocene",SC;SE,12-13,Tes—Tokun and Stillwater Formations and similar rocks; Tkf—Kulthieth Formation,SEDIMENTARY ROCKS
+450,Tes,Tokun and Stillwater Formations and similar rocks,"Tertiary, Eocene",SC,12,,SEDIMENTARY ROCKS
+451,Tkf,Kulthieth Formation,"Tertiary, Eocene","SC, SE",13,,SEDIMENTARY ROCKS
+452,Tv,"Volcanic rocks, undivided",Tertiary,AL;AP;CN;EC;SC;SW;NW,76-77;80;82,"Tvu—Volcanic rocks of southern Alaska; Twv—Wrangell Lava; Tepv—Andesite and basalt flows; Tpcv—Cantwell Formation, volcanic rocks subunit; Tsr—Soda rhyolite and basalt",VOLCANIC ROCKS
+453,Tvu,Volcanic rocks of southern Alaska,"Tertiary, Pliocene? and older","AL, AP,
+CN, EC, SC, SW",76,,VOLCANIC ROCKS
+454,Twv,Wrangell Lava,"Tertiary, Pliocene to Oligocene","EC, SC",77,,VOLCANIC ROCKS
+455,Tepv,Andesite and basalt flows,"Tertiary, Eocene and Paleocene","SC, WC",80,,VOLCANIC ROCKS
+456,Tpcv,"Cantwell Formation, volcanic rocks subunit","Tertiary, Paleocene",SC,82,,VOLCANIC ROCKS
+457,Tsr,Soda rhyolite and basalt,"Tertiary, Paleocene",NW,82,,VOLCANIC ROCKS
+458,Tvc,Victoria Creek metamorphic rocks,"Tertiary, Paleocene metamorphism",CN,110,,METAMORPHIC ROCKS
+459,Tvcs,Volcanic and sedimentary rocks,"Tertiary, Oligocene and Eocene",AL;AP;SC,10-11,"Tarcs—Volcaniclastic sedimentary rocks; Tvs—Volcanic and sedimentary rocks, undivided",SEDIMENTARY ROCKS
+460,Tarcs,Volcaniclastic sedimentary rocks,"Tertiary, Oligocene to Eocene","AL, AP",10,,SEDIMENTARY ROCKS
+461,Tvs,"Volcanic and sedimentary rocks, undivided","Tertiary, Oligocene and Eocene",SC,11,,SEDIMENTARY ROCKS
+462,Tvme,"Older volcanic rocks, undivided","Tertiary, early Miocene to Eocene",SE;AL;AP;SC;SW,78-79,Tca—Admiralty Island and Cenotaph Volcanics; Tmv—Meshik Volcanics and similar rock units; Tev—Felsic volcanic rocks of southwest Alaska,VOLCANIC ROCKS
+463,Tca,Admiralty Island and Cenotaph Volcanics,"Tertiary, Miocene to Oligocene",SE,78,,VOLCANIC ROCKS
+464,Tmv,Meshik Volcanics and similar rock units,"Tertiary, Oligocene to Eocene","AL, AP, SC, WC",78,,VOLCANIC ROCKS
+465,Tev,Felsic volcanic rocks of southwest Alaska,"Tertiary, Oligocene? and Eocene",SW,79,,VOLCANIC ROCKS
+466,Tvpm,"Younger volcanic rocks, undivided","Tertiary, Pliocene and Miocene",SW;AL;AP;EC,77-78,Tpv—Basalt and tuff; Tvm—Volcanic rocks of the Aleutian Islands and Alaska Peninsula; Tob—Olivine basalt flows,VOLCANIC ROCKS
+467,Tpv,Basalt and tuff,"Tertiary, Pliocene",SW,77,,VOLCANIC ROCKS
+468,Tvm,Volcanic rocks of the Aleutian Islands and Alaska Peninsula,"Tertiary, Miocene","AL, AP, SW",77,,VOLCANIC ROCKS
+469,Tob,Olivine basalt flows,"Tertiary, Miocene",EC,78,,VOLCANIC ROCKS
+470,^cs,Calcareous sedimentary rocks,"Upper Triassic, middle? Norian and upper Carnian",SC,44,,SEDIMENTARY ROCKS
+471,^Dtz,Sedimentary rocks and chert (Angayucham),Triassic to Devonian,EC;NE;NR;SW;WC,32,^Dtz—Sedimentary rocks; *Mch—Chert,SEDIMENTARY ROCKS
+472,^Dtz,Sedimentary rocks,Triassic to Devonian,"EC, NE,
+NR, SW, WC",32,,SEDIMENTARY ROCKS
+473,*Mch,Chert,Carboniferous and older,WC,32,,SEDIMENTARY ROCKS
+474,^gs,Shublik Formation and lower Glenn Shale,Triassic,NR;EC,34;42,"^gs—Shublik Formation; ^gsl—Glenn Shale, lower unit",SEDIMENTARY ROCKS
+475,^gs,Shublik Formation,Triassic,NR,34,,SEDIMENTARY ROCKS
+476,^gsl,"Glenn Shale, lower unit",Triassic,EC,42,,SEDIMENTARY ROCKS
+477,^hg,"Hyd Group, undivided",Upper and Middle Triassic,SE,43,"^hgs—Hyd Group sedimentary rocks, undivided; ^hgv—Hyd Group igneous rocks, undivided",SEDIMENTARY ROCKS
+478,^hgs,"Hyd Group sedimentary rocks, undivided",Upper Triassic,SE,43,,SEDIMENTARY ROCKS
+479,^hgv,"Hyd Group igneous rocks, undivided",Upper Triassic,SE,44,,SEDIMENTARY ROCKS
+480,^mb,Massive basalt and greenstone,Triassic,SE;SC;AP;SW,85-86,^vs—Volcanic and sedimentary rocks of Nakwasina Sound; ^b—Mafic volcanic rocks of Chilkat Peninsula; ^n—Nikolai and Goon Dip Greenstones and equivalent rocks; ^cb—Cottonwood Bay and Chilikradrotna Greenstones; ^vsw—Older volcanic rocks of southwest Alaska,VOLCANIC ROCKS
+481,^vs,Volcanic and sedimentary rocks of Nakwasina Sound,Triassic,SE,85,,VOLCANIC ROCKS
+482,^b,Mafic volcanic rocks of Chilkat Peninsula,Late Triassic,SE,85,,VOLCANIC ROCKS
+483,^n,Nikolai and Goon Dip Greenstones and equivalent rocks,Late and Middle Triassic,"SC, SE",86,,VOLCANIC ROCKS
+484,^cb,Cottonwood Bay and Chilikradrotna Greenstones,"Late Triassic, Norian?","AP, SW",86,,VOLCANIC ROCKS
+485,^vsw,Older volcanic rocks of southwest Alaska,Triassic,SW,86,,VOLCANIC ROCKS
+486,^mls,Marble and limestone of Wrangellia,Triassic,SW;AP;SC;SE,45,^ls—Carbonates and associated rocks; ^cnk—Chitistone and Nizina Limestones and Kamishak Formation; ^wm—Whitestripe Marble of southeast Alaska,SEDIMENTARY ROCKS
+487,^ls,Carbonates and associated rocks,Triassic,SW,45,,SEDIMENTARY ROCKS
+488,^cnk,Chitistone and Nizina Limestones and Kamishak Formation,"Upper Triassic, Norian to Carnian","AP, SC, SW",45,,SEDIMENTARY ROCKS
+489,^wm,Whitestripe Marble of southeast Alaska,Triassic?,SE,45,,SEDIMENTARY ROCKS
+490,^Msm,Seventymile assemblage (Yukon-Tanana crystalline complex),Triassic to Mississippian,EC,115,,METAMORPHIC ROCKS
+491,^Psg,"Sadlerochit Group, undivided",Lower Triassic to Permian,NE,46,^if—Ivishak Formation; Pe—Echooka Formation,SEDIMENTARY ROCKS
+492,^if,Ivishak Formation,Lower Triassic,NE,46,,SEDIMENTARY ROCKS
+493,Pe,Echooka Formation,Permian,NE,46,,SEDIMENTARY ROCKS
+494,^Pvs,"Metamorphic rocks, southeast Alaska",Triassic to Permian,SE,114,,METAMORPHIC ROCKS
+495,^*ms,"Skolai and Mankomen Groups, undivided",Triassic to Pennsylvanian,SC,48-49;118,"P*ms—Mankomen and Skolai Groups, undivided; Peh—Eagle Creek and Hasen Creek Formations; Pehls—Limestone of the Hasen Creek and Eagle Creek Formations; P*t—Slana Spur and Station Creek Formations and Tetelna Volcanics; ^ms—Metavolcanic and metasedimentary rocks",SEDIMENTARY ROCKS; METAMORPHIC ROCKS
+496,P*ms,"Mankomen and Skolai Groups, undivided",Lower Permian and Pennsylvanian,SC,48,,SEDIMENTARY ROCKS
+497,Peh,Eagle Creek and Hasen Creek Formations,Lower Permian,SC,48,,SEDIMENTARY ROCKS
+498,Pehls,Limestone of the Hasen Creek and Eagle Creek Formations,Lower Permian,SC,49,,SEDIMENTARY ROCKS
+499,P*t,Slana Spur and Station Creek Formations and Tetelna Volcanics,Lower Permian to Middle Pennsylvanian,SC,49,,SEDIMENTARY ROCKS
+500,^ms,Metavolcanic and metasedimentary rocks,Late Triassic,SC,118,,METAMORPHIC ROCKS
+501,^*sf,Flysch-like sedimentary rocks,Triassic to Pennsylvanian,SC,42,,SEDIMENTARY ROCKS
+502,^|bi,Metamorphic rocks of Baranof Island,Triassic or older,SE,118,,METAMORPHIC ROCKS
+503,^|gp,Metagraywacke and phyllite,Triassic? and late Paleozoic,"CN, NR, WC",119,,METAMORPHIC ROCKS
+504,^qd,Quartz diorite and granodiorite,Triassic,"EC, SE, SW",104,,INTRUSIVE ROCKS
+505,^sf,"Shuyak Formation, undivided",Upper Triassic,AP,42,^sy—Sedimentary member; ^syv—Volcanic member,SEDIMENTARY ROCKS
+506,^sy,Sedimentary member,Upper Triassic,AP,42,,SEDIMENTARY ROCKS
+507,^syv,Volcanic member,Upper Triassic,AP,42,,SEDIMENTARY ROCKS
+508,Xio,Kanektok metamorphic complex and Idono Complex,Paleoproterozoic,SW,131,=km—Kanektok marble,METAMORPHIC ROCKS
+509,=km—,Kanektok marble,Precambrian,SW,132,,METAMORPHIC ROCKS
+510,Zam,Metasedimentary and metavolcanic rocks of Mount Angayukaqsraq,Neoproterozoic,NW,130,,METAMORPHIC ROCKS
+511,Zgn,Gneiss of northern Alaska,Neoproterozoic,NR;SP,130,Zgn—Granite and orthogneiss; Zgns—Orthogneiss of the Seward Peninsula,METAMORPHIC ROCKS
+512,Zgn,Granite and orthogneiss,Neoproterozoic?,NR,130,,METAMORPHIC ROCKS
+513,Zgns,Orthogneiss of the Seward Peninsula,Neoproterozoic,SP,130,,METAMORPHIC ROCKS

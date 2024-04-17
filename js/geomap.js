@@ -1,23 +1,15 @@
+githubAPI = "AAPK14ceecbe50e741a8abf64505c88e0ae2hbmy5FKYTlNO8r9NgEY1n0spf5bQg4X-Ws2mCUoXrQMECei8f3MgQr4g6cglMzjO"
+
 require([
     "esri/config", 
     "esri/Map", 
     "esri/views/MapView",
-    "esri/widgets/Locate",
-    "esri/widgets/Search",
     "esri/widgets/BasemapGallery",
     "esri/widgets/Expand",
     "esri/layers/FeatureLayer",
     "esri/widgets/Legend",
-    "esri/widgets/Editor",
-    "esri/renderers/UniqueValueRenderer",
     "esri/widgets/LayerList",
-    "esri/rest/support/Query",
-    "esri/layers/GraphicsLayer",
-    "esri/Graphic",
-    "esri/renderers/Renderer",
     "esri/renderers/SimpleRenderer",
-    "esri/symbols/SimpleMarkerSymbol",
-    "esri/layers/CSVLayer",
     "esri/layers/GroupLayer",
 	"esri/layers/GeoJSONLayer",
 	"esri/symbols/SimpleLineSymbol"
@@ -25,28 +17,18 @@ require([
     esriConfig, 
     Map, 
     MapView,
-    Locate,
-    Search,
     BasemapGallery,
     Expand,
     FeatureLayer,
     Legend,
-    Editor,
-    UniqueValueRenderer,
     LayerList,
-    Query,
-    GraphicsLayer,
-    Graphic,
-    Renderer,
     SimpleRenderer,
-    SimpleMarkerSymbol,
-    CSVLayer,
     GroupLayer,
 	GeoJSONLayer,
 	SimpleLineSymbol
     ) {
 	//ApiKey and set up map
-	esriConfig.apiKey = "AAPK14ceecbe50e741a8abf64505c88e0ae2hbmy5FKYTlNO8r9NgEY1n0spf5bQg4X-Ws2mCUoXrQMECei8f3MgQr4g6cglMzjO";
+	esriConfig.apiKey = githubAPI;
 	const map = new Map({ 
 		basemap: "arcgis-topographic" // Basemap layer service
 	});

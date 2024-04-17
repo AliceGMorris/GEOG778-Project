@@ -14,17 +14,17 @@
         <div class="navbar">
             <a href="index.html">Home</a>
             <div class="nav_dropdown">
-                <button class="dropbtn">Education 
+                <button class="dropbtn"><a href="education.html">Education</a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="education.html">Thermochronology 101</a>
+                    <a href="education.html#Thermo">Thermochronology 101</a>
                     <a href="education.html#AFTvAHe">AFT vs AHe</a>
                     <a href="education.html#SA101">Intro to Southern Alaska</a>
                 </div>
             </div> 
             <div class="nav_dropdown">
-                <button class="dropbtn">Southern Alaska 
+                <button class="dropbtn"><a href="geologicmap.html">Interactive Maps </a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
@@ -33,15 +33,16 @@
                 </div>
             </div>
             <div class="nav_dropdown">
-                <button class="dropbtn">Analysis
+                <button class="dropbtn"><a href="stats.html">Analysis</a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="stats.html">Main Points</a>
+                    <a href="stats.html#analysis">Main Points</a>
                     <a href="stats.html#histoGraph">Histogram</a>
                     <a href="stats.html#missing">Areas of Missing Data</a>
                 </div>
-            </div> 
+            </div>
+            <button id="myButton"> Sources </button>
         </div>
 
         <div id="title"><h1>Analysis</h1></div>
@@ -55,7 +56,6 @@
                 <li class="wordList" style="margin-left:2em;">Most AHe ages are younger than 20 Ma</li>
                 <li class="wordList">Youngest cooling ages associated with coastal fault systems and the Denali fault (near Mt Denali)</li>
                 <li class="wordList">Sample locations are usually in proximity to known active faults</li>
-                <li class="wordList">Placeholder text</li>
             </p></div>
         </div>
 
@@ -70,25 +70,25 @@
         <div id="missing"><h3>Areas of Missing Data</h3>
             <div class="Words">
                 <h3 style="color:#0F204B;">Areas of missing AFT basement data for Southern Alaska</h3>
-                <img src="img/Placeholder.jpg" alt="Elevation and fault map of Alaska">
+                <img src="img/AFT.jpg" alt="Areas of missing AFT basement data for Southern Alaska">
                 <p style="font-size: 0.75em;"></p>
-                <h3 style="color:#0F204B;">Areas of missing AFT basement data within 50Km of a quaternary fault for Southern Alaska</h3>
-                <img src="img/Placeholder.jpg" alt="Elevation and fault map of Alaska">
+                <h3 style="color:#0F204B;">Areas of missing AFT basement data within 50km of a quaternary fault for Southern Alaska</h3>
+                <img src="img/AFT_Faults.jpg" alt="Areas of missing AFT basement data within 50km of a quaternary fault for Southern Alaska">
                 <p style="font-size: 0.75em;"></p>
                 <h3 style="color:#0F204B;">Areas of missing AHe basement data for Southern Alaska</h3>
-                <img src="img/Placeholder.jpg" alt="Elevation and fault map of Alaska">
+                <img src="img/AHe.jpg" alt="Areas of missing AHe basement data for Southern Alaska">
                 <p style="font-size: 0.75em;"></p>
-                <h3 style="color:#0F204B;">Areas of missing AHe basement data within 50Km of a quaternary fault for Southern Alaska</h3>
-                <img src="img/Placeholder.jpg" alt="Elevation and fault map of Alaska">
-                <p style="font-size: 0.75em;">The script used to create these areas can be downloaded <a href="py scripts/blank.py" download>HERE</a></p>
+                <h3 style="color:#0F204B;">Areas of missing AHe basement data within 50km of a quaternary fault for Southern Alaska</h3>
+                <img src="img/AHe_Faults.jpg" alt="Areas of missing AHe basement data within 50km of a quaternary fault for Southern Alaska">
+                <p style="font-size: 0.75em;">The script used to create these areas can be downloaded <a href="py scripts/missing_areas_script.py" download>HERE</a></p>
         </div></div>
 
 
-        <button id="myButton"> Sources </button>
+        
         <div id="myPopup" class="popup">
             <div class="popup-content">
                 <button id="closePopup"> Close </button>
-                <h1> Sources: </h1>
+                <h1> Page Sources: </h1>
                 <h2> Samples </h2>
                 <p class="Sources"> Arkle, J.C., Armstrong, P.A., Haeussler, P.J., Michael, G.P., Hartman, S., Sendziak, K.L., and Brush, J.A., 2013, Focused exhumation in the syntaxis of the western Chugach Mountains and Prince William Sound, Alaska: GSA Bulletin, v. 125, p. 776-793, doi: 10.1130/B30738.1 </p>
                 <p class="Sources"> Benowitz, J.A., Layer, P.W., Armstrong, P., Perry, S.E., Haeussler, P.J., Fitzgerald, P.G., and VanLaningham, S., 2011, Spatial variations in focused exhumation along a continental-scale strike-slip fault: The Denali fault of the eastern Alaska Range: Geosphere, v. 7, p. 455-467, doi: 10.1130/GES00589.1 </p>
@@ -146,6 +146,14 @@
 
         <script src="lib/d3.js"></script>
         <script type="text/javascript" src="js/stats.js"></script>
+
+
+        <footer>
+            <div>© 2024 Alice G. Morris</div>
+            <div><a href="" target="_blank">Portfolio</a></div>
+            <div><a href="https://alicegmorris.github.io/GEOG778-Project/" target="_blank">Github page</a></div>
+            <div><a href="https://github.com/AliceGMorris/GEOG778-Project" target="_blank">Github repo</a></div>
+        </footer>
 
     </body>
 </html>

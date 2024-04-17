@@ -7,24 +7,26 @@
 
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/navigation.css">
-        
+
+        <link rel="stylesheet" href="lib/bootstrap-5.3.3-dist/css/bootstrap-grid.css">
+        <script src="lib/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     </head>
 
     <body style="background-color:white;">
         <div class="navbar">
             <a href="index.html">Home</a>
             <div class="nav_dropdown">
-                <button class="dropbtn">Education 
+                <button class="dropbtn"><a href="education.html">Education</a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="education.html">Thermochronology 101</a>
+                    <a href="education.html#Thermo">Thermochronology 101</a>
                     <a href="education.html#AFTvAHe">AFT vs AHe</a>
                     <a href="education.html#SA101">Intro to Southern Alaska</a>
                 </div>
             </div> 
             <div class="nav_dropdown">
-                <button class="dropbtn">Southern Alaska 
+                <button class="dropbtn"><a href="geologicmap.html">Interactive Maps </a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
@@ -33,17 +35,79 @@
                 </div>
             </div>
             <div class="nav_dropdown">
-                <button class="dropbtn">Analysis
+                <button class="dropbtn"><a href="stats.html">Analysis</a> 
                 <i class="a"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="stats.html">Main Points</a>
+                    <a href="stats.html#analysis">Main Points</a>
                     <a href="stats.html#histoGraph">Histogram</a>
                     <a href="stats.html#missing">Areas of Missing Data</a>
                 </div>
-            </div> 
+            </div>
+            <button id="myButton"> About </button>
         </div>
 
-		<div id="title"><h1>Home Page</h1></div>
+		<div id="title"><h1>Education of Apatite Fission Track and Apatite (U-Th)/He in Southern Alaska</h1></div>
+        <div id="Section">
+            <div class="Words">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6"><a href="geologicmap.html"><img src="img/GeoHomepage.jpg" alt="Interactive geologic map of Alaska"/></a>
+                            <span class="caption"><a href="geologicmap.html"><h3 style="color:#0F204B;"> Interactive Geologic Map of Alaska </h3></a></span></div>
+                        <div class="col-md-6"><a href="samples.html"><img src="img/AFTAHeHomepage.jpg" alt="AFT and AHe interactive samples map"/></a>
+                            <span class="caption"><a href="samples.html"><h3 style="color:#0F204B;"> Interactive AFT and AHe Sample Map of Southern Alaska </h3></a></span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6"><a href="education.html"><img src="img/Topo2Homepage.jpg" alt="Education"/></a>
+                            <span class="caption"><a href="education.html"><h3 style="color:#0F204B;"> Education </h3></a></span></div>
+                        <div class="col-md-6"><a href="stats.html"><img src="img/KrigHomepage.jpg" alt="Education"/></a>
+                            <span class="caption"><a href="stats.html"><h3 style="color:#0F204B;"> Analysis </h3></a></span></div>
+                    </div>
+        </div></div></div>
+
+        <div id="myPopup" class="popup">
+            <div class="popup-content">
+                <button id="closePopup"> Close </button>
+                <h1> Education of Apatite Fission Track and Apatite (U-Th)/He in Southern Alaska </h1>
+                <p> © 2024 Alice G. Morris </p>
+                <h2><b> F.A.Q. </b></h2>
+                <h3><b> What is the purpose of this project? </b></h3>
+                <p> To educate people about apatite fission track and apatite (U-Th)/He thermochronometers, the geology of southern Alaska, and how they relate to each other </p>
+                <h3><b> Who is the target audience? </b></h3>
+                <p> Geologists who wish to learn about the topic </p>
+                <h2><b> What are the pages? </b></h2>
+                <h3><b> Home Page: </b></h3>
+                <p> Used for navigation of site </p>
+                <h3><b> Education: </b></h3>
+                <p> A page dedicated to the basic education of apatite fission track and apatite (U-Th)/He thermochronometers, the geology of southern Alaska, and how they relate to each other </p>
+                <h3><b> Interactive Geologic Map of Alaska: </b></h3>
+                <p> An interactive geologic map of Alaska based in ESRI JS. Full geologic map and only basement units are present </p>
+                <h3><b> Interactive AFT and AHe Map of Southern Alaska: </b></h3>
+                <p> An interactive map of AFT and AHe thermochronometers across southern Alaska. The samples are separated by methodology and colour coded based on the paper source. Each sample includes the sample name, age, std, and a link to the paper </p>
+                <h3><b> Analysis: </b></h3>
+                <p> A page dedicated to main points about the data, a histogram for AFT and AHe data types with bin size of 2 Ma, and a section dedicated to highlighting areas of missing data </p>
+            </div>
+        </div>
+
+        <script>
+            myButton.addEventListener("click", function () {
+                myPopup.classList.add("show");
+            });
+            closePopup.addEventListener("click", function () {
+                myPopup.classList.remove("show");
+            });
+            window.addEventListener("click", function (event) {
+                if (event.target == myPopup) {
+                    myPopup.classList.remove("show");
+                }
+            });
+        </script>
+
+        <footer>
+            <div>© 2024 Alice G. Morris</div>
+            <div><a href="" target="_blank">Portfolio</a></div>
+            <div><a href="https://alicegmorris.github.io/GEOG778-Project/" target="_blank">Github page</a></div>
+            <div><a href="https://github.com/AliceGMorris/GEOG778-Project" target="_blank">Github repo</a></div>
+        </footer>
     </body>
 </html>
